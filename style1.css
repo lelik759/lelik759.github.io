@@ -2,37 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:400,400i,700,700i&subset=cyrillic');
 
 
-
-p{
-	color: #47CD40;
-}
-
-
-.h1{
-	font-family:'Cormorant SC', serif;/*add reserv font*/
-}
-
-.h2{
-	font-family:'Anonymous Pro', monospace;/*add reserv font*/
-}
+body
+{
+	display:flex;
+	justify-content:space-beetwen;
+}	
 
 
-h3{
-		color: rgba(237, 114, 184, 0.54);
-}
 
-#ingr{		
-		color: rgb(27, 204, 154);
-}
-.ingr{
-		font-size: 18px;
-		line-height: 24px;
-		font-family:Helvetica,Geneva,Arial,sans-serif;  
 
-}
-
-.instr{
-		font-size: 16px;
-		line-height: 22px;
-		font-family:"Times New Roman",Garamond,serif;
-}
