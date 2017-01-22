@@ -1,0 +1,322 @@
+<!-- ССЫЛКА НА PSD - https://drive.google.com/open?id=0BxTkBdlCXGJzR1NfS1FBYS01U0U -->
+
+<!-- trendy
+1. кажется тут для всего сайта должен был быть 1 wrapper - \исправил\
+2. выпадение марджина у шапки, над серым фоном видно белая полоска. \- это такая дизайнерская тень\
+3. лучше не использовать классы left и right, а если их потом надо поменять местами? - \согласен исправил\
+4. все содержимое внутри блока text просто должно центрироваться по родителю, а не задавать большие паддинги -\полечил флексом\
+5. Recent Work тут немного странно: когда навожу на картинку — появляется прозрачный фон поверх и кнопка, но когда навожу на появившуюся кнопку — фон пропадает - \пока не поборол\
+6. чаще и лучше использовать не псевдоклассы, а реальные классы, когда мы это можем: вместо двух станов и потом указания стилей через псевдоклассы — лучше задать им классы в явном виде -\ принял\
+7. передфутерный блок — там заголовки "About Us, Latest Tweets, Recent Posts, Photostream” относятся к колонкам ниже, те оно странно разделено в верстке, хотя не должно было - \переделал,сильно увлекся флексом решил "About Us, Latest Tweets, Recent Posts, Photostream” сделать в отдельном контейнере,поэтому так получилось\
+из того ,что вот прямо круто:
+1. переиспользование классов
+2. хорошая работа с флексбоксами -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>trendy</title>
+	<link rel="stylesheet" href="trendy.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="logo">
+				<a href="#"><img src="img/logo.png" alt="лого"></a>
+				<span>Responsive Wordpress Theme</span>
+			</div>
+			<div class="link">
+				<a href="#"><img src="img/facebook.png" alt="лицо"></a>
+				<a href="#"><img src="img/twitter.png" alt="птица"></a>
+				<a href="#"><img src="img/flickr.png" alt="точки"></a>
+				<a href="#"><img src="img/vimeo.png" alt="v"></a>
+				<a href="#"><img src="img/dribbble.png" alt="дрибл"></a>
+			</div>
+		</div>
+	
+		<div class="wrapper shadow">
+			<div class="navbar">
+				<div class="logo">
+					<a href="#"><img src="img/search-icon.png" alt="лупа"></a>
+				</div>
+				<div class="link">
+					<div class="dropdown">
+						<a href="#">Home</a>
+						<ul class="down">
+							<li><a href="#">Full Width </a></li>
+							<li><a href="#">Typography</a></li>
+							<li><a href="#">Shortcodes</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Sliders</a></li>
+						</ul>
+					</div>
+					<div class="dropdown">	
+						<a href="#">Features </a>
+						<ul class="down">
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+						</ul>
+							
+					</div>
+					<div class="dropdown">	
+						<a href="#">Portfolio</a>
+						<ul class="down">
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+						</ul>
+					</div>	
+					<div class="dropdown">
+						<a href="#">Shortcodes</a>
+						<ul class="down">
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+						</ul>
+					</div>	
+					<div class="dropdown">
+						<a href="#">Blog </a>
+						<ul class="down">
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+						</ul>
+					</div>
+					<div class="dropdown">
+						<a href="#">Contact</a>
+						<ul class="down">
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+							<li><a href="#">Simple text</a></li>
+						</ul>
+					</div>
+
+				</div>
+				
+			</div>
+		</div>
+		<div class="wrapper shadow">
+			<div class="wrapper wrap  inner">
+				<div class="text">
+					<p>	Morbi sollicitudin vestibul
+						odio consectetur diam, et gravida ipsum eros sit amet nisi. Vestibulum tristique, felis quis lobortis rutrum, elit enim faucibus sem, quis tempor urna nulla ut arcu. Aliquam erat volutpat. .</p>
+					<p>Vestibulum tristique, felis quis lobortis 
+						rutrum
+						, elit enim faucibus sem, quis tempor urna nulla ut arcu. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin dapibus tellus justo, non tincidunt lacus. </p>
+					<div class="btn ">
+						<a href="#">Buy this Theme on ThemeForest</a> 
+					</div>
+				
+					
+				</div>
+				
+		</div>
+		<div class="wrapper wrap inner flexx">
+			<p>
+				Aenean posuere ipsum tellus consequat commodo.  Gravida ipsum porttitor  bibendum ultricies blandit imperdiet
+
+			</p>
+			<div class="btn btn2">
+				<a href="#">Buy this Theme on ThemeForest</a> 
+			</div>				
+						
+		</div>
+		<div class="wrap">
+			<div class="row">
+				<div class="col">
+						<span>Malesuada dignissim, rutrum at tellus. Etiam sed mauris velit. Nam porta arcu bibendum quam tempor eu feugiat diam varius. Cras et dapibus justo.Nulla fringilla ultricies posuere.
+						</span>
+						<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elit lacus, pellentesque sed sollicitudin in, lacinia ut orci. </span>
+						<img src="img/7-layers.png" alt="монитор">	
+				</div>
+				<div class="col">
+						<span>Malesuada dignissim, rutrum at tellus. Etiam sed mauris velit. Nam porta arcu bibendum quam tempor eu feugiat diam varius. Cras et dapibus justo.Nulla fringilla ultricies posuere.
+						</span>
+						<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elit lacus, pellentesque sed sollicitudin in, lacinia ut orci. Cras lacus eros, consectetur eget bibendum ac, malesuada vitae felis.</span>
+						<img src="img/11-layers.png" alt="календарь">	
+				</div>
+				<div class="col">
+						<span>Malesuada dignissim, rutrum at tellus. Etiam sed mauris velit. Nam porta arcu bibendum quam tempor eu feugiat diam varius. Cras et dapibus justo.Nulla fringilla ultricies posuere. 
+						</span>
+						<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elit lacus, pellentesque sed sollicitudin in, lacinia ut orci. </span>
+						<img src="img/3-layers.png" alt="колесо">	
+				</div>
+					
+			</div>	
+		</div>
+		<div class="wrap">
+			<div class="inn">
+				<span class="recent">Recent Work rutrum at tellus. Etiam sed mauris velit. Nam porta arcu bibendum quam tempor eu feugiat diam varius. Cras et dapibus justo.Nulla fringilla ultricies posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </span>
+				<a href="">VIEW ALL </a>
+			</div>
+		</div>
+		<div class="wrap ft">
+			<div class="foto">
+
+				<a href="#"><img src="img/layer-3-copy-8.png" alt="ночь"></a>
+
+				<a href="#"><img src="img/layer-3-copy-6.png" alt="ночь"></a>
+				<a href="#"><img src="img/layer-3-copy-6.png" alt="ночь"></a>
+
+			</div>
+		</div>
+			<div class="wrap marg">
+				<div class="row">
+					<div class="col">
+						<span>Malesuada dignissim
+
+						, rutrum at tellus. Etiam sed mauris velit. Nam porta arcu bibendum quam tempor eu feugiat diam varius. Cras et dapibus justo.
+
+						Nulla fringilla ultricies posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+
+
+						</span>
+						<span>Cras lacus eros, consectetur eget bibendum ac, malesuada vitae felis. Aenean posuere ipsum ut tellus consequat commodo. Nunc gravida ipsum orci, at porttitor velit. </span>
+					</div>
+					<div class="col">
+						<span>Malesuada dignissim
+
+						, rutrum at tellus. Etiam sed mauris velit. Nam porta arcu bibendum quam tempor eu feugiat diam varius. Cras et dapibus justo.
+
+						Nulla fringilla ultricies posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elit lacus, pellentesque sed sollicitudin in, 
+
+
+						</span>
+						<span>Cras lacus eros, consectetur eget bibendum ac, malesuada vitae felis. Aenean posuere ipsum ut tellus consequat commodo. </span>
+					</div>
+					<div class="col">
+						<span>Malesuada dignissim
+
+						, rutrum at tellus. Etiam sed mauris velit. Nam porta arcu bibendum quam tempor eu feugiat diam varius. Cras et dapibus justo.
+
+						Nulla fringilla ultricies posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elit lacus, pellentesque sed sollicitudin in, lacinia ut orci. 
+						</span>
+						<span>Cras lacus eros, consectetur eget bibendum ac, malesuada vitae felis. Aenean posuere ipsum ut tellus consequat commodo. Nunc gravida ipsum orci, at porttitor velit. </span>
+					</div>			
+				</div>
+			</div>
+	</div>
+	<div class="wrapper shadow columns">
+		<div class="brends">
+			<a href="#"><img src="img/2-layers.png" alt="telin"></a>
+			<a href="#"><img src="img/2-layers1.png" alt="zwi"></a>
+			<a href="#"><img src="img/2-layers2.png" alt="pol"></a>
+			<a href="#"><img src="img/2-layers3.png" alt="exi"></a>
+			<a href="#"><img src="img/2-layers4.png" alt="sou"></a>
+			
+		</div>
+	</div>
+	<div class="wrapper dark">
+		<div class="wrap columns">
+			
+				
+				<div class="wrapcont">
+					<div class="content">
+						<div class="title">
+							About Us 
+						</div>
+						<p class="got"><span>Cras lacus eros, consectetur eget bibendum ac, malesuada vitae felis. Aenean posuere ipsum ut tellus consequat commodo. </span></p>
+						<p class="adress"> 2766 Wildrose Lane<br>
+							Detroit, MI 48226, USA<br>
+							Tel: 313-766-5767<br>
+							Email: contact@se7ent.co</p>
+						<a href="#"><img src="img/facebook1.png" alt="фейс"></a>
+						<a href="#"><img src="img/dribbble1.png" alt="круг"></a>
+					</div>
+					<div class="content">
+						<div class="title">
+							Latest Tweets
+							<a href="#"><img src="img/twitter-copy-2.png" alt="птица"></a>
+							
+						</div> 
+
+
+						 <p class="got it"><i>@se7ent</i><span> Aenean posuere ipsum ut tellus consequat commodo. Nunc gravida ipsum orci, at porttitor vel Nam ultricies blandit purus sed imperdiet. </span></p>
+						 <p class="geo">about 2 days ago  23 commentsante vel ligula rhoncus pulvinar. Donec eu ultrices dui. Cras nibh nulla, aliquet a hendrerit et, viverra sit amet leo. Fusce sit amet tortor leo, in mollis enim. Vestibulum sed mi ac nibh suscipit dictum nec id leo. Maecenas tincidunt, lacus sit amet sagittis hendrerit, velit eros eleifend magna, a dictum augue turpis eu quam.</p>
+						 <p class="got it"><i>@se7ent</i><span> Aenean posuere ipsum ut tellus consequat commodo. Nunc gravida ipsum orci, at porttitor vel Nam ultricies blandit purus sed imperdiet. </span></p>
+						 <p class="geo">about 2 days ago  23 commentsante vel ligula rhoncus pulvinar. Donec eu ultrices dui. Cras nibh nulla, aliquet a hendrerit et, viverra sit amet leo. .</p>
+
+					</div>
+					<div class="content">
+					<div class="title">
+						Recent Posts 
+						<a href="#"><img src="img/pen.png" alt="карандаш"></a>
+						
+					</div>
+						<div class="col ">
+							<span>Malesuada dignissim rutrum at tellus. Etiam sed mauris velit. Nam porta arcu bibendum quam tempor eu feugiat diam varius. Cras et dapibus justo..</span>
+							
+						</div>
+
+						<p class="got it"><span>Cras lacus eros, consectetur eget bibendac, malesuada vitae felis. Aenean posue ipsum ut tellus consequat commodo. Nunc gravida ipsum orci, at porttitor velit. Nam ultricies blandit purus sed imperdiet. </span></p>
+						 <p class="geo">1st July, 2012  23 commentsante vel ligula rhoncus pulvinar. Donec eu ultrices dui. Cras nibh nulla, aliquet a hendrerit et, viverra sit amet leo. </p>
+						 <div class="col ">
+							<span>Malesuada dignissim rutrum at tellus. Etiam sed mauris velit. Nam porta arcu bibendum quam tempor eu feugiat diam varius. Cras et dapibus justo.Nulla fringilla ultricies posuere. </span>
+							
+						</div>
+						 <p class="got it"><span>Cras lacus eros, consectetur eget bibendac, malesuada vitae felis. Aenean posue ipsum ut tellus consequat commodo. </span></p>
+						 <p class="geo">1st July, 2012  23 commentsante vel ligula rhoncus pulvinar. Donec eu ultrices dui. Cras nibh nulla, aliquet a hendrerit et, viverra sit amet leo. </p>
+					</div>
+					<div class="restang">
+					<div class="title">
+						<span>Photostream</span>
+						<a href="#"><img src="img/flickr-copy.png" alt="фли"></a>
+						
+					</div>
+						<a href="#"><img src="img/layer-3-copy-62.png" alt="фейс"></a>
+						<a href="#"><img src="img/layer-3-copy-62.png" alt="круг"></a>
+						<a href="#"><img src="img/layer-3-copy-62.png" alt="круг"></a>
+						<a href="#"><img src="img/layer-3-copy-62.png" alt="фейс"></a>
+						<a href="#"><img src="img/layer-3-copy-62.png" alt="круг"></a>
+						<a href="#"><img src="img/layer-3-copy-62.png" alt="круг"></a>
+
+					</div>	
+				</div>		
+		</div>
+	
+	</div>
+	
+	<div class="wrapper dark">
+		<div class="wrap footr">
+			<div class="footer">
+				<span>© Copyright 2012 Se7ent. All Rights Reserved.</span>
+				<span>Terms & Conditions   Privacy Policy</span>
+				<div class="arrow">
+					<a href="#"><</a>
+				</div>
+
+			</div>
+		</div>
+		
+	
+	</div>
+	
+
+	</div>
+	
+</div>	
+
+	
+
+
+
+	
+</body>
+</html>

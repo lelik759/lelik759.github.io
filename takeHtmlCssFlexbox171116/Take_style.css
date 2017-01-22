@@ -1,0 +1,516 @@
+/*1. ССЫЛКА НА PSD - https://drive.google.com/open?id=0BxTkBdlCXGJzYkxGZVdtVFpNT1k */
+
+/*Вопросы
+1.Фото с эффектами частями или целиком
+2.Водяной знак абсолютом - кто релатив,нижние уезжают ?
+3.Отступы абзаца возле руля - паддинг ?
+4.Айпад плохая тень
+5.Высота фона - отступами или фиксированная
+6.Стили каскадами возможно?
+7.class="footer-form"- начало снизу,а не сверху*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,latin-ext');
+*,
+*::before,
+*::after 
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	background-color: #f6f7fa;
+}
+
+body,p,h1,h2,h3,h4,h5,h6
+{
+	margin: 0;
+}
+a 
+{
+	text-decoration:none;
+}
+
+#header-background
+{
+	position: relative;
+	background-image: url(img/header-image.png);
+	width: 100%;
+	height: 961px;
+	background-size: cover;
+}
+
+
+.wrapper
+{
+	width: 1174px;
+	margin: 0 auto;
+}
+
+.logo
+{
+	padding-top: 56px;
+}
+
+
+.logo a{
+	color: #fff;
+	font:800 21px/21px 'Merriweather', serif;
+	font-style: italic;
+	display: flex;
+	
+}
+
+.logo a span
+{
+	margin-left: 10px;
+	align-self: center;
+}
+
+.logo a:hover
+{
+	opacity: 0.8;
+}
+
+h1
+{
+	color: #fff;
+	font:300 60px 'Open Sans',sans-serif;
+}
+
+.header-text
+{
+	width: 438px;
+	display: inline-block;
+	color: #fff;
+	font:400 13px/24px 'Open Sans',sans-serif;
+	word-wrap: break-word; 
+	
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+#iphone
+{
+	position: absolute;
+	bottom:-260px;
+	right: 120px;
+}
+
+h2
+{
+	color: #222626;
+	font:300 35px/24px 'Open Sans',sans-serif;
+	margin-bottom: 30px;
+	display: block;
+}
+
+.content
+{
+	margin:113px 0 83px; 
+
+
+}
+
+
+.content p
+{
+	width: 569px;
+	color: #959595;
+	font:400 14px/24px 'Open Sans',sans-serif;
+	word-wrap: break-word;
+	display: inline-block;
+	margin-right: 16px;
+	vertical-align: middle;
+
+}
+
+.img
+{
+	width: 400px;
+	height: 278px;
+	background-color: #f5989d;
+	padding: 51px 0 0 43px;
+}
+
+h3
+{
+	color: #fff;
+	font:300 30px 'Open Sans',sans-serif;
+	font-size: 30px;
+	margin-bottom: 24px;
+}
+
+.img p
+{
+	width: 301px;
+	color: #fff;
+	font:400 13px/24px 'Open Sans',sans-serif;
+	word-wrap: break-word;
+	margin-bottom: 40px; 
+}
+
+
+.img a
+{
+	color: #fff;
+	font:700 14px 'Open Sans',sans-serif;
+}
+
+.img a:hover
+{
+	opacity: 0.8;
+}
+
+
+.img a::after
+{
+	content:'\2192';
+	color: #fff;
+	margin-left: 15px;
+}
+
+.second
+{
+	background-color: #615f7d;
+}
+
+.third
+{
+	background-image: url(img/layer-6.png);
+	opacity: 0.7;
+	background-color: #000000;
+}
+
+.four
+{
+	width: 285px;
+	height: 278px;
+	background-color: #bd8cbf;
+}
+
+.four p,.seven p
+{
+	width: 240px;
+}
+
+.five
+{
+	width: 800px;
+	height: 278px;
+	opacity: 0.7;
+	background-image: url(img/layer-5.png);
+	background-color:#000000 ;
+}
+
+.five p
+{
+	width: 438px;
+}
+
+.six
+{	
+	background-color: #82ca9c;
+	
+}
+
+.seven
+{	
+	width: 285px;
+	height: 278px;
+	background-color: #82ca9c;
+	background-image: url(img/layer-14.png);
+}
+
+
+.galery
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+.box
+{
+	margin:97px 0 159px;
+}
+
+.text-block span
+{
+	margin: 68px 0 28px 1px;
+	color: #67676d;
+	font:600 13px/24px 'Open Sans',sans-serif;
+	display: block;
+	
+	
+}
+
+.text-block p
+{
+	width: 265px;
+	color: #959595;
+	font:400 14px/24px 'Open Sans',sans-serif;
+	word-wrap: break-word;
+}
+
+.text
+{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+
+.middle-background
+{
+	background-image: url(img/2-layers.png);
+	width: 100%;
+	height: 874px;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.9;
+	background-color: #bd8cbf;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+	
+.content-middle h1
+{
+	width: 520px;
+
+}
+
+.middle
+{
+	background-color: transparent;
+	padding: 0;
+	height: auto;
+	word-wrap: break-word;
+}
+.middle p
+{
+	width: 440px;
+}
+
+.content-middle
+{
+	margin-bottom: 135px;
+}
+
+
+
+.color
+{
+	width:100%;
+	height: 536px;
+	background-color: #82ca9c;
+	padding-top: 124px;
+}
+
+.color .text-block p
+{
+	width: 370px;
+	color: #fff;
+}
+
+.color .text-block span
+{
+	color: #fff;
+}
+
+.color .title-h2 
+{
+	margin:0;
+	color: #fff;
+}
+
+
+.restangle-link
+{
+	width: 570px;
+	padding: 47px 0 56px 53px;
+	position: relative;
+
+}
+
+.btn-small
+{
+	border-radius: 5px;
+	background-color: #e1e1e1;
+	display: inline-block;
+	padding: 7px 18px;
+	margin-bottom: 23px;
+	color: #fff;
+	font:700 11px/22px 'Open Sans',sans-serif;
+	text-transform: uppercase;
+}
+
+	
+h4
+{
+	color: #2e3b4e;
+	font:300 30px/40px 'Open Sans',sans-serif;
+	margin-bottom: 25px;
+}
+
+h4+p
+{
+	width: 411px;
+	color: #8297a7;
+	font:400 14px/25px 'Open Sans',sans-serif;
+	margin-bottom: 25px;
+}
+
+.btn-big
+{
+
+	width: 151px;
+	border-radius: 3px;
+	background-color: #82ca9c;
+	display: inline-block;
+	padding: 17px 31px;
+	margin-bottom: 21px;
+	color: #fff;
+	font:700 13px/22px 'Open Sans',sans-serif;
+	text-transform: uppercase;
+}
+.restangle-link a .btn-big:hover
+{
+	text-decoration: underline;
+}
+
+.restangle-link a .btn-small:hover
+{
+	background-color: #bd8cbf;
+}
+
+.os a
+{
+	margin-right: 16px;
+}
+
+
+.restangle-link:hover
+{
+	background-color: #fff;
+	box-shadow: 0 0 62px rgba(0, 0, 0, 0.05);
+}
+
+.link
+{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 145px;
+
+}
+
+.os a:hover
+{
+	opacity: 0.8;
+}
+
+.last
+{
+	top:83px;
+}
+
+.footer-background
+{
+	width: 100%;
+	background-color: #192431;
+}
+
+.footer-side
+{
+	width: 566px;
+}
+
+.footer
+{
+	padding: 93px 0 157px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-text
+{
+	color: #f6f7fa;
+	font:600 13px/24px 'Open Sans',sans-serif;
+	margin-bottom: 29px;
+	display:block;
+}
+
+
+ .small a
+{
+	font:400 13px/24px 'Open Sans',sans-serif;
+	color: #f6f7fa;
+	display: block;
+}
+
+.small a:hover
+{
+	text-decoration: underline;
+}
+
+.small	
+{
+	display: inline-block;
+}
+
+p.small
+{
+	margin-bottom: 73px;
+}
+
+.footer-col
+{
+	display: inline-block;
+	margin-right: 95px;
+}
+
+.footer-col:last-child
+{
+	margin: 0;
+}
+
+.footer-form
+{
+	display: inline-block;
+	width: 470px;
+
+}
+
+.form-text
+{
+	
+	color: #57697f;
+	font:400 12px/18px 'Open Sans',sans-serif;
+}
+
+input
+{
+	width: 400px;
+	height: 58px;
+	display: inline-block;
+}	
+button
+{
+	width: 70px;
+	height: 58px;
+	background-color: #82ca9c;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+form
+{
+	margin-bottom: 18px;
+}
+
