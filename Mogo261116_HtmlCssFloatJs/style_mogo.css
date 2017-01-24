@@ -220,7 +220,7 @@ font-weight: 700;
 
 .foto{
 	width: 380px;
-	height: 250px;
+	/*height: 250px;*/
 	position: relative;
 	margin-right: 30px; 
 	display: inline-block;
@@ -393,6 +393,8 @@ font-weight: 700;
 
 
 .chel{
+
+	max-width: 100%;
 	float: left;
 	margin-bottom: 120px;
 }
@@ -907,4 +909,23 @@ font:400 14px 'Montserrat',sans-serif;
 .footer{
 	margin: 95px 0 25px 0;
 
+}
+
+
+@media  (max-width: 1200px) {
+
+	.bottom1 {
+		width:180px;
+	}
+
+	.foto    {
+
+		display: block;
+		margin: 0 auto;
+	}
+
+	.foto:last-child {
+    margin-right: auto;
+	}
+	
 }
