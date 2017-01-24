@@ -33,11 +33,11 @@ a{
 	background-size:cover;
 	padding-top: 28px;
 	padding-bottom: 28px;
-	background-position: center;
+	background-position:center;
 }
 
 .wrapper{
-	width: 1210px;
+	max-width: 1280px;
 	margin:0 auto;
 	text-align: center;
 	position: relative;
@@ -143,11 +143,14 @@ font:700 30px 'Montserrat', sans-serif ;
     opacity: 0.5;
 }
 
-.bottom{
+.bottom {
 
 	margin:171px 0 0 0;
 	position: relative;
 	padding-left: 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .bottom a:nth-child(n+2){
@@ -337,7 +340,7 @@ font-weight: 700;
 	margin-right: 0;
 }
 
-.amaz:nth-child(3n+4)::before{
+/*.amaz:nth-child(3n+4)::before{
 	content: '';
 	width: 1100px;
 	height: 3px;
@@ -347,7 +350,7 @@ font-weight: 700;
 	top:-30px;
 	left:0;
 	opacity: 0.3;
-}
+} ЛОМАЕТ ВЕРСТКУ ПРИ УМЕНЬШЕНИИ*/
 
 
 /*НАЧАЛО ЧЕТВЕРТОГО БЛОКА*/
@@ -579,6 +582,7 @@ div.slider-text:nth-of-type(1){
 }
 
 .barber{
+	max-width: 100%;
 	opacity: 0.8;
 	margin: 10px auto 10px;
 }
@@ -609,7 +613,7 @@ div.slider-text:nth-of-type(1){
 	
 }
 .clients{
-	width: 1104px;
+	max-width: 1104px;
 
 	
 }
@@ -892,14 +896,14 @@ font:400 14px 'Montserrat',sans-serif;
 	color: #f38181;
 }
 
-span.psd::before{
+/*span.psd::before{
 	content: '';
-	width: 1200px;
+	max-width: 1200px;
 	height: 1px;
 	background-color:#e5e5e5;
 	display: inline-block;
 	margin: 75px 0 25px 0;
-}
+}ЛОМАЕТ ВЕРСТКУ ПРИ УМЕНЬШЕНИИ*/
 .footer{
 	margin: 95px 0 25px 0;
 
