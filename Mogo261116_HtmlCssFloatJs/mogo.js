@@ -6,7 +6,7 @@ var i =0;
 function slider (dir, e ) {
 
 	var sliderText=e.target.parentElement.querySelectorAll(".slider-text");
-	// console.log(sliderText);
+	
 	
 	
 
@@ -33,19 +33,19 @@ function slider (dir, e ) {
 
 
 var arrowRight=document.querySelectorAll(".arrow-right");
-console.log(arrowRight);
 
-for (var j = 0; j < arrowRight.length; j++) {
-	arrowRight[j].onclick=function(e) {
+
+for (var i = 0; i < arrowRight.length; i++) {
+	arrowRight[i].onclick=function(e) {
 		slider ("arrow-right", e );
 	}
 }
 
 var arrowLeft=document.querySelectorAll(".arrow-left");
-console.log(arrowLeft);
 
-for (var j = 0; j < arrowLeft.length; j++) {
-	arrowLeft[j].onclick=function(e) {
+
+for (var i = 0; i < arrowLeft.length; i++) {
+	arrowLeft[i].onclick=function(e) {
 		slider ("arrow-left",e);
 	}
 }
