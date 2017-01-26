@@ -8,11 +8,11 @@ function slider (dir, e ) {
 	var sliderText=e.target.parentElement.querySelectorAll(".slider-text");
 	
 	
-	
+	console.log(i);
 
 	if (dir=="arrow-right") {
 		sliderText[i].style.display="none";
-		++i;
+		i++;
 		if (i>=sliderText.length) {
 			i=0
 		}
@@ -23,7 +23,7 @@ function slider (dir, e ) {
 
 	   	sliderText[i].style.display="none";
 		--i;
-		if (i<=0) {
+		if (i<0) {
 			i=sliderText.length-1;
 		}
 		sliderText[i].style.display="block";
@@ -35,8 +35,8 @@ function slider (dir, e ) {
 var arrowRight=document.querySelectorAll(".arrow-right");
 
 
-for (var i = 0; i < arrowRight.length; i++) {
-	arrowRight[i].onclick=function(e) {
+for (var j = 0; j < arrowRight.length; j++) {
+	arrowRight[j].onclick=function(e) {
 		slider ("arrow-right", e );
 	}
 }
@@ -44,8 +44,8 @@ for (var i = 0; i < arrowRight.length; i++) {
 var arrowLeft=document.querySelectorAll(".arrow-left");
 
 
-for (var i = 0; i < arrowLeft.length; i++) {
-	arrowLeft[i].onclick=function(e) {
+for (var j = 0; j < arrowLeft.length; j++) {
+	arrowLeft[j].onclick=function(e) {
 		slider ("arrow-left",e);
 	}
 }
