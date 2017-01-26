@@ -220,11 +220,12 @@ font-weight: 700;
 
 .foto{
 	width: 380px;
-	/*height: 250px;*/
+	min-height:240px; 
 	position: relative;
-	margin-right: 30px; 
+	margin-right:2%; 
 	display: inline-block;
 	vertical-align: top;
+	
 }
 
 .foto:last-child {
@@ -292,8 +293,7 @@ font-weight: 700;
 	font-weight: 400;
 }
 .lazur {
-	width: 241px;
-	height: 270px;
+	width: 20%;
 	text-align: center;
 	border-right: 1px solid;
 	border-left:  1px solid;
@@ -340,17 +340,7 @@ font-weight: 700;
 	margin-right: 0;
 }
 
-/*.amaz:nth-child(3n+4)::before{
-	content: '';
-	width: 1100px;
-	height: 3px;
-	background-color:grey;
-	display: block;
-	position: absolute;
-	top:-30px;
-	left:0;
-	opacity: 0.3;
-} ЛОМАЕТ ВЕРСТКУ ПРИ УМЕНЬШЕНИИ*/
+
 
 
 /*НАЧАЛО ЧЕТВЕРТОГО БЛОКА*/
@@ -394,13 +384,12 @@ font-weight: 700;
 
 .chel{
 
-	max-width: 100%;
+	max-width: 45%;
 	float: left;
 	margin-bottom: 120px;
 }
 .menu {
-	width: 600px;
-	height: 60px;
+	width: 45%;
 	border: 1px solid #e5e5e5;
 	float: right;
 	text-align: center;
@@ -430,18 +419,19 @@ font-weight: 700;
 	opacity: 0.7;
 }
 
-#open, #open1, #open2{
+.open, .open1, .open2{
 	color: #999;
 	font:300 15px/24px 'Roboto',sans-serif;
 	font-style: italic;
 	border: 1px solid #e5e5e5;
 	border-top:none;
 	border-bottom: none; 
-	width: 600px;
+	width: 45%;
 	float: right;
 	margin: 0;
 	text-align:left;
 	padding: 21px 55px 28px 20px;
+	display: none;
 	
 	
 }
@@ -898,14 +888,7 @@ font:400 14px 'Montserrat',sans-serif;
 	color: #f38181;
 }
 
-/*span.psd::before{
-	content: '';
-	max-width: 1200px;
-	height: 1px;
-	background-color:#e5e5e5;
-	display: inline-block;
-	margin: 75px 0 25px 0;
-}ЛОМАЕТ ВЕРСТКУ ПРИ УМЕНЬШЕНИИ*/
+
 .footer{
 	margin: 95px 0 25px 0;
 
@@ -929,3 +912,14 @@ font:400 14px 'Montserrat',sans-serif;
 	}
 	
 }
+
+
+
+.revert{
+	transform: rotate(180deg);
+}
+
+.show {
+	display: block;
+}
+
