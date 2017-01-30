@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700');
+
+.wrapper
+{
+	font-family: "Century Gothic",monospace;
+	font-size: 13px;
+	max-width: 1663px;
+	background-color: #f6f6f6;
+	margin:15px;
+	padding-top: 22px;
+
+}
+.header
+{
+	max-width: 1394px;
+	display: flex;
+	justify-content: space-between;
+}
+.header-nav
+{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+.header-nav__menu
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.header-nav__item
+{
+	margin: auto;
+	color: #000000;
+	font:bold 16px/32px 'Source Code Pro', monospace;
+}
+.header-nav__item:hover
+{
+	background-color:#ffea00; 
+}
+.mod-margin
+{
+	margin:0 auto 22px ;
+}
+
+
+
+.slider
+{
+	width: 100%;
+	height: 700px;
+	background-image: url(../img/slider-bg.png);
+	background-size:cover;
+	background-position: center;
+	position: relative;
+	padding-top: 22px;
+}
+
+.slider >div
+{
+	width: 85%;
+	height: 600px;
+	margin:0 auto;
+	/*background-color:#00ea00; */
+}
+.slider-item__title
+{
+	color: #000000;
+	font-size: 5.4em;
+	font-weight: bold;
+	line-height: 1.3em;
+	text-transform: uppercase;
+	background-color:#ffeb00;
+	display: inline;
+
+}
+.slider-item__text
+{
+	color: #ffffff;
+	font-size: 1.85em;
+	font-weight: bold;
+	line-height: 1.37em;
+	background-color:#3f3f44;
+	display: inline;
+}
+.slider-item-wrapper
+{
+	margin-top: 101px;
+	max-width: 100%;
+}
+
+.slider-item__link
+{
+	max-width: 191px;
+	max-height: 40px;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 1.85em;
+	font-weight: bold;
+	line-height: 1.58em;
+	padding: 1px 29px;
+	margin-top:63px;
+	margin-left:328px;
+
+	display:block;
+	
+}
+
+.slider-item__link:hover
+{
+	border-bottom: 3px solid #ffea00;
+	opacity: 0.9;
+}

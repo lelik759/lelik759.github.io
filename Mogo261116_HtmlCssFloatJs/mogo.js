@@ -3,12 +3,13 @@
 
 var i =0;
 
+var k =0;
 function slider (dir, e ) {
 
 	var sliderText=e.target.parentElement.querySelectorAll(".slider-text");
 	
 	
-	console.log(i);
+	console.log(i,k);
 
 	if (dir=="arrow-right") {
 		sliderText[i].style.display="none";
@@ -21,12 +22,12 @@ function slider (dir, e ) {
 
    if (dir=="arrow-left") {
 
-	   	sliderText[i].style.display="none";
-		--i;
-		if (i<0) {
-			i=sliderText.length-1;
+	   	sliderText[k].style.display="none";
+		--k;
+		if (k<0) {
+			k=sliderText.length-1;
 		}
-		sliderText[i].style.display="block";
+		sliderText[k].style.display="block";
 	}
 
 } 
