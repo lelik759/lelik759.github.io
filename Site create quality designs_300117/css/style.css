@@ -86,7 +86,8 @@
 .slider-item-wrapper
 {
 	margin-top: 101px;
-	max-width: 100%;
+	max-width: 50%;
+	position: relative;
 }
 
 .slider-item__link
@@ -99,10 +100,10 @@
 	font-weight: bold;
 	line-height: 1.58em;
 	padding: 1px 29px;
-	margin-top:63px;
-	margin-left:328px;
-
 	display:block;
+	position: absolute;
+	bottom:-100px;
+	right:170px;
 	
 }
 
@@ -111,3 +112,29 @@
 	border-bottom: 3px solid #ffea00;
 	opacity: 0.9;
 }
+.slider-item-photo
+{
+	width: 720px;
+	position: absolute;
+	top:0;
+	right:60px;
+}
+.slider-item-photo-row__img
+{
+	float: left;
+	width: 25%;
+
+}
+
+.mod-position
+{
+	position: relative;
+	top:0; 
+	left:180px;
+}
+
+.slider-item-photo-row
+{
+	height: 151px;
+}
+
