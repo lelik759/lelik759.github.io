@@ -3,7 +3,6 @@
 .wrapper
 {
 	font-family: "Century Gothic",monospace;
-	font-size: 13px;
 	max-width: 1663px;
 	background-color: #f6f6f6;
 	margin:15px;
@@ -61,25 +60,24 @@
 	width: 85%;
 	height: 600px;
 	margin:0 auto;
-	/*background-color:#00ea00; */
+	
 }
 .slider-item__title
 {
 	color: #000000;
-	font-size: 5.4em;
+	font-size: 70px;
 	font-weight: bold;
-	line-height: 1.3em;
+	line-height: 85px;
 	text-transform: uppercase;
 	background-color:#ffeb00;
 	display: inline;
-
 }
 .slider-item__text
 {
 	color: #ffffff;
-	font-size: 1.85em;
+	font-size: 24px;
 	font-weight: bold;
-	line-height: 1.37em;
+	line-height: 33px;
 	background-color:#3f3f44;
 	display: inline;
 }
@@ -96,15 +94,14 @@
 	max-height: 40px;
 	background-color: #000000;
 	color: #ffffff;
-	font-size: 1.85em;
+	font-size: 24px;
 	font-weight: bold;
-	line-height: 1.58em;
+	line-height: 38px;
 	padding: 1px 29px;
 	display:block;
 	position: absolute;
 	bottom:-100px;
 	right:170px;
-	
 }
 
 .slider-item__link:hover
@@ -135,6 +132,135 @@
 
 .slider-item-photo-row
 {
-	height: 151px;
+	height:151px;
 }
+
+.main-title
+{
+	width:50%;
+	margin:90px auto 60px;
+	
+	text-align: center;
+}
+
+.main-title__title
+{
+	color: #424147;
+	font-size: 35px;
+	font-weight: bold;
+	line-height: 21px;
+	text-transform: uppercase;
+	margin-bottom: 27px;
+}
+
+.main-title__text
+{
+	color: #424147;
+	font-size:24px;
+	font-weight:bold;
+	line-height:21px;
+	margin-bottom:60px;
+}
+
+.main-content
+{
+	display: inline-block;
+	position: relative;
+}
+
+.main-content-link__img
+{
+	display:block;
+}
+
+
+
+.main-content-link__text
+{
+	color: #ffffff;
+	font: 20px/23px 'Source Code Pro', monospace;
+	position: absolute;
+	bottom:27px;
+	left:17px;
+	text-transform: uppercase;
+
+}
+
+.main-content-link__smalltext
+{
+	color: #ffffff;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 17px;
+	position: absolute;
+	bottom:8px;
+	right:84px;
+}
+
+.mod-color
+{
+	color:#ffea00;
+	right:24px;
+}
+
+.main-content-hidden-img
+{
+	width: 250px;
+	height: 200px;
+	background-image: url(../img/bgyellow.png);
+	position: absolute;
+	top:0;
+	text-align: center;
+	
+}
+
+.main-content-hidden-imgdown
+{
+	width: 250px;
+	height: 85px;
+	background-image: url(../img/grey-bg.png);
+	position: absolute;
+	bottom:0;
+}
+.main-content-hidden-img__icon
+{
+	margin-top:40px;
+	margin-bottom:20px;
+}
+
+.main-content-hidden-img__text
+{
+	color: #000000;
+	font: 20px/20px 'Source Code Pro', monospace;
+	display:block;
+	text-transform: uppercase;
+
+}
+.main-content-hidden-imgdown
+{
+	text-align: center;
+	padding: 27px 0;
+
+}
+
+.main-content-hidden-imgdown__text
+{
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 17px;
+
+}
+
+.main-content-hidden:hover
+{
+	opacity:0;
+}
+.main-content-wrapper
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
 
