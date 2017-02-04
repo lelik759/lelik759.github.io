@@ -32,6 +32,47 @@
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     cursor: pointer;
+    
+
+}
+
+.filtering button
+
+{
+    font-size: 0;
+    line-height: 0;
+     position: absolute;
+    top: 50%;
+    display: block;
+    width: 46px;
+    height: 65px;
+    background-color:black;
+    padding:0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    z-index: 999;
+}
+
+.filtering button:first-child
+{
+    left:-100px;
+}
+.filtering button:last-child
+{
+    right:-100px;
+}
+
+
+.filtering .slick-prev:before,
+.filtering .slick-next:before
+{
+    font-family: 'slick';
+    font-size: 35px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
 
 }
 

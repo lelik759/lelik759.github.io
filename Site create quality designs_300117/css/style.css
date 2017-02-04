@@ -234,13 +234,11 @@
 	font: 20px/20px 'Source Code Pro', monospace;
 	display:block;
 	text-transform: uppercase;
-
 }
 .main-content-hidden-imgdown
 {
 	text-align: center;
 	padding: 27px 0;
-
 }
 
 .main-content-hidden-imgdown__text
@@ -249,7 +247,6 @@
 	font-size: 13px;
 	font-weight: bold;
 	line-height: 17px;
-
 }
 
 .main-content-hidden:hover
@@ -261,6 +258,167 @@
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	margin-bottom: 90px;
+}
+.main-title-block
+{
+	text-align: center;
+	position: relative;
+}
+
+.main-title-block__head
+{
+	width:160px;
+	height:30px; 
+	background-image: url(../img/bg-our.png);
+	color: #ffea00;
+	font-size: 18px;
+	line-height: 21px;
+	text-transform: uppercase;
+	padding: 5px 25px;
+	margin-bottom: 33px;
+	display:inline-block;
+}
+
+.main-title-block__head::after
+{
+	content:" ";
+	width: 704px;
+	height: 1px;
+	background-color: #cacaca;
+	display:inline-block;
+	position: absolute;
+	top:15px;
+	left:0; 
+}
+.main-title-block__head::before
+{
+	content:" ";
+	width: 704px;
+	height: 1px;
+	background-color: #cacaca;
+	display:inline-block;
+	position: absolute;
+	top:15px;
+	right:0; 
+}
+.main-galeryphoto-wrapper
+{
+	font-size:0;
+	margin: 42px auto 90px;
+	width: 99%;
+	text-align: center;
 }
 
 
+.main-galeryphoto
+{
+	display:inline-block;
+	vertical-align: top;
+}
+.main-galeryphoto__img
+{
+	vertical-align: top;
+	margin:0 5px 5px 0;
+	
+}
+.mod-size-top
+{
+	max-width:65.1%;
+}	
+
+
+.mod-size-middle
+{
+	width: 16.2%;
+	margin-right: 5px;
+}
+
+.mod-size-bottom
+{
+	width: 16.5%;
+}
+
+.mod_50
+{
+	width: 49.5%;
+
+}
+
+.mod_25
+{
+	max-width: 24.5%;
+}
+
+.filtering__img
+{
+	margin: 0 40px 0 0;
+}
+
+.mod-slider-client
+{
+	margin: 40px 100px 120px 100px ;
+}
+
+.footer
+{
+	width:100%;
+	height:auto;
+	background-color:#414146;
+	padding: 30px 0;
+}
+
+.footer-content
+{
+	width: 85.36%;
+	margin:0 auto;
+	background-color: #414146;
+}
+.footer-section
+{
+	width: 28.55%;
+}
+.footer-section
+{
+	display: inline-block;
+}
+
+.footer-section__title
+{
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 32px;
+	margin-bottom: 30px;
+}
+.footer-section__text
+{
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 21px;
+	margin-bottom: 45px;
+}
+
+
+
+.footer-section__link
+{
+	max-width: 121px;
+	max-height: 37px;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 15px;
+	padding: 11px 18px;
+	margin-bottom:45px;
+	display:block;
+	
+}
+
+.footer-section__link:hover
+{
+	border-bottom: 3px solid #ffea00;
+	opacity: 0.9;
+}
