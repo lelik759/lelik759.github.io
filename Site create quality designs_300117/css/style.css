@@ -376,7 +376,7 @@
 }
 .footer-section
 {
-	width: 28.55%;
+	width: 29.5%;
 }
 .footer-section
 {
@@ -395,7 +395,6 @@
 {
 	color: #ffffff;
 	font-size: 13px;
-	font-weight: bold;
 	line-height: 21px;
 	margin-bottom: 45px;
 }
@@ -421,4 +420,36 @@
 {
 	border-bottom: 3px solid #ffea00;
 	opacity: 0.9;
+}
+.footer-section-stream-img
+{
+	display: block;display: inline-block;
+	width: 30%;
+}
+
+.footer-section-stream-img img:nth-child(1)
+{
+	display: block;
+	margin-bottom: 5px;
+}
+
+.footer-section-item li
+{
+	background:url(../img/twitter-birs-icon.png) no-repeat center left;
+	padding-left: 40px;
+	font-size: 13px;
+	line-height: 21px;
+	color: #ffffff;
+}
+
+.footer-section-item__text
+{
+	color: #ffea00;
+}
+
+.footer-section-item__textsmall
+{
+	color: #ffea00;
+	font-size: 8px;
+	line-height: 21px;
 }
