@@ -309,8 +309,6 @@
 	width: 99%;
 	text-align: center;
 }
-
-
 .main-galeryphoto
 {
 	display:inline-block;
@@ -373,10 +371,12 @@
 	width: 85.36%;
 	margin:0 auto;
 	background-color: #414146;
+	display:flex;
+	justify-content: space-between;
 }
 .footer-section
 {
-	width: 29.5%;
+	width: 30.5%;
 }
 .footer-section
 {
@@ -390,7 +390,10 @@
 	font-weight: bold;
 	line-height: 32px;
 	margin-bottom: 30px;
+	margin-right: 9px;
+	vertical-align: middle;
 }
+
 .footer-section__text
 {
 	color: #ffffff;
@@ -398,9 +401,16 @@
 	line-height: 21px;
 	margin-bottom: 45px;
 }
+.mod-display
+{
+	display: inline-block;
 
+}
 
-
+.footer-section-imglink
+{
+	font-size: 0;
+}
 .footer-section__link
 {
 	max-width: 121px;
@@ -413,7 +423,6 @@
 	padding: 11px 18px;
 	margin-bottom:45px;
 	display:block;
-	
 }
 
 .footer-section__link:hover
@@ -421,10 +430,15 @@
 	border-bottom: 3px solid #ffea00;
 	opacity: 0.9;
 }
+
 .footer-section-stream-img
 {
-	display: block;display: inline-block;
-	width: 30%;
+	display: inline-block;
+	width: 32%;
+}
+.footer-section-stream
+{
+	font-size: 0;
 }
 
 .footer-section-stream-img img:nth-child(1)
@@ -440,6 +454,7 @@
 	font-size: 13px;
 	line-height: 21px;
 	color: #ffffff;
+	margin-bottom: 15px;
 }
 
 .footer-section-item__text
@@ -453,3 +468,51 @@
 	font-size: 8px;
 	line-height: 21px;
 }
+.footer-section-imglink
+{
+	display: inline-block;
+	margin-top: 25px;
+}
+
+
+.footer-section-imglink img
+{
+	margin-right: 1px;
+}
+
+.mod-bg-address
+{
+	background:url(../img/adress.png) no-repeat center left;
+	padding-left: 47px;
+	margin-bottom: 20px;
+}
+.mod-bg-phone
+{
+	background:url(../img/phone.png) no-repeat center left;
+	padding-left: 47px;
+	margin-bottom: 25px;
+}
+.mod-bg-mail
+{
+	background:url(../img/email.png) no-repeat center left;
+	padding-left: 47px;
+	margin-bottom: 50px;
+}
+.footer-section-form__button
+{
+	width: 25px;
+	height: 25px;
+	background:url(../img/email-icon.png) no-repeat center center ;
+	vertical-align: middle;
+	margin-bottom: 130px;
+}
+
+.footer-section-form__input
+{
+	width: 52.72%;
+	border:none;
+	border-bottom: 2px solid #ffea00;
+	margin-bottom: 130px;
+	background-color:rgba(0, 0, 0, 0);
+}
+
