@@ -516,3 +516,21 @@
 	background-color:rgba(0, 0, 0, 0);
 }
 
+.mod-nav-footer
+{
+	max-width: 100%;
+	background-color: #000000;
+	padding: 25px 0;
+	justify-content: space-around;
+}
+
+.header__text-footer
+{
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 32px;
+}
+.mod-item-footer
+{
+	color: #ffffff;
+}
