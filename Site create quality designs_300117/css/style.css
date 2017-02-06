@@ -85,7 +85,7 @@
 }
 .slider-item-wrapper
 {
-	margin-top: 101px;
+	margin-top: 6.312rem;
 	max-width: 50%;
 	position: relative;
 }
@@ -545,11 +545,11 @@
 
 
 
-@media only screen and (min-width : 1224px) and (max-width: 1663px)
+@media only screen and (min-width : 1225px) and (max-width: 1662px)
 {
 	html
 	{
-		font-size: 65%;
+		font-size: 80%;
 	}
 	.slider-item-photo
 	{
@@ -560,5 +560,9 @@
     height: 117px;
 	}
 
+	.header 
+	{
+    justify-content: space-around;
+	}
 
 }
