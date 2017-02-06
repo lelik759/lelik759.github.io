@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700');
 
+/*html
+{
+	font-size: 85%;
+}*/
 .wrapper
 {
 	font-family: "Century Gothic",monospace;
+	
 	max-width: 1663px;
 	background-color: #f6f6f6;
 	margin:15px;
 	padding-top: 22px;
-
 }
 .header
 {
@@ -31,7 +35,7 @@
 {
 	margin: auto;
 	color: #000000;
-	font:bold 16px/32px 'Source Code Pro', monospace;
+	font:bold 1rem/2rem 'Source Code Pro', monospace;
 }
 .header-nav__item:hover
 {
@@ -41,8 +45,6 @@
 {
 	margin:0 auto 22px ;
 }
-
-
 
 .slider
 {
@@ -65,9 +67,9 @@
 .slider-item__title
 {
 	color: #000000;
-	font-size: 70px;
+	font-size: 4.375rem;
 	font-weight: bold;
-	line-height: 85px;
+	line-height: 5.33rem;
 	text-transform: uppercase;
 	background-color:#ffeb00;
 	display: inline;
@@ -75,9 +77,9 @@
 .slider-item__text
 {
 	color: #ffffff;
-	font-size: 24px;
+	font-size:1.5rem;
 	font-weight: bold;
-	line-height: 33px;
+	line-height: 2.0625rem;
 	background-color:#3f3f44;
 	display: inline;
 }
@@ -94,10 +96,10 @@
 	max-height: 40px;
 	background-color: #000000;
 	color: #ffffff;
-	font-size: 24px;
+	font-size: 1.5rem;
 	font-weight: bold;
-	line-height: 38px;
-	padding: 1px 29px;
+	line-height: 2.375rem;
+	padding: 0.0625rem 1.812rem;
 	display:block;
 	position: absolute;
 	bottom:-100px;
@@ -139,16 +141,15 @@
 {
 	width:50%;
 	margin:90px auto 60px;
-	
 	text-align: center;
 }
 
 .main-title__title
 {
 	color: #424147;
-	font-size: 35px;
+	font-size: 2.187rem;
 	font-weight: bold;
-	line-height: 21px;
+	line-height: 1.312rem;
 	text-transform: uppercase;
 	margin-bottom: 27px;
 }
@@ -156,9 +157,9 @@
 .main-title__text
 {
 	color: #424147;
-	font-size:24px;
+	font-size:1.5rem;
 	font-weight:bold;
-	line-height:21px;
+	line-height:1.312rem;
 	margin-bottom:60px;
 }
 
@@ -178,7 +179,7 @@
 .main-content-link__text
 {
 	color: #ffffff;
-	font: 20px/23px 'Source Code Pro', monospace;
+	font: 1.25rem/1.437rem 'Source Code Pro', monospace;
 	position: absolute;
 	bottom:27px;
 	left:17px;
@@ -189,9 +190,9 @@
 .main-content-link__smalltext
 {
 	color: #ffffff;
-	font-size: 10px;
+	font-size: 0.625rem;
 	font-weight: bold;
-	line-height: 17px;
+	line-height: 1.062rem;
 	position: absolute;
 	bottom:8px;
 	right:84px;
@@ -231,7 +232,7 @@
 .main-content-hidden-img__text
 {
 	color: #000000;
-	font: 20px/20px 'Source Code Pro', monospace;
+	font: 1.25rem/1.25rem 'Source Code Pro', monospace;
 	display:block;
 	text-transform: uppercase;
 }
@@ -244,9 +245,9 @@
 .main-content-hidden-imgdown__text
 {
 	color: #ffffff;
-	font-size: 13px;
+	font-size: 0.812rem;
 	font-weight: bold;
-	line-height: 17px;
+	line-height:1.062rem;
 }
 
 .main-content-hidden:hover
@@ -268,12 +269,12 @@
 
 .main-title-block__head
 {
-	width:160px;
-	height:30px; 
+	max-width:160px;
+	max-height:30px; 
 	background-image: url(../img/bg-our.png);
 	color: #ffea00;
-	font-size: 18px;
-	line-height: 21px;
+	font-size: 1.125rem;
+	line-height: 1.312rem;
 	text-transform: uppercase;
 	padding: 5px 25px;
 	margin-bottom: 33px;
@@ -283,7 +284,7 @@
 .main-title-block__head::after
 {
 	content:" ";
-	width: 704px;
+	width: 40%;
 	height: 1px;
 	background-color: #cacaca;
 	display:inline-block;
@@ -294,7 +295,7 @@
 .main-title-block__head::before
 {
 	content:" ";
-	width: 704px;
+	width: 40%;
 	height: 1px;
 	background-color: #cacaca;
 	display:inline-block;
@@ -386,9 +387,9 @@
 .footer-section__title
 {
 	color: #ffffff;
-	font-size: 18px;
+	font-size: 1.125rem;
 	font-weight: bold;
-	line-height: 32px;
+	line-height: 2rem;
 	margin-bottom: 30px;
 	margin-right: 9px;
 	vertical-align: middle;
@@ -397,8 +398,8 @@
 .footer-section__text
 {
 	color: #ffffff;
-	font-size: 13px;
-	line-height: 21px;
+	font-size: 0.812rem;
+	line-height:1.312rem;
 	margin-bottom: 45px;
 }
 .mod-display
@@ -417,9 +418,9 @@
 	max-height: 37px;
 	background-color: #000000;
 	color: #ffffff;
-	font-size: 15px;
+	font-size:0.937rem;
 	font-weight: bold;
-	line-height: 15px;
+	line-height:0.937rem;
 	padding: 11px 18px;
 	margin-bottom:45px;
 	display:block;
@@ -450,11 +451,11 @@
 .footer-section-item li
 {
 	background:url(../img/twitter-birs-icon.png) no-repeat center left;
-	padding-left: 40px;
-	font-size: 13px;
-	line-height: 21px;
+	font-size: 0.812rem;
+	line-height:1.312rem;
 	color: #ffffff;
 	margin-bottom: 15px;
+	padding-left: 40px;
 }
 
 .footer-section-item__text
@@ -465,8 +466,8 @@
 .footer-section-item__textsmall
 {
 	color: #ffea00;
-	font-size: 8px;
-	line-height: 21px;
+	font-size: 0.5rem;
+	line-height: 1.312rem;
 }
 .footer-section-imglink
 {
@@ -527,10 +528,37 @@
 .header__text-footer
 {
 	color: #ffffff;
-	font-size: 14px;
-	line-height: 32px;
+	font-size: 0.875rem/2rem 'Source Code Pro', monospace;;
+
+
 }
 .mod-item-footer
 {
 	color: #ffffff;
+}
+.header-nav__item.mod-item-footer:hover
+{
+	background-color:black; 
+	opacity: 0.7;
+}
+
+
+
+
+@media only screen and (min-width : 1224px) and (max-width: 1663px)
+{
+	html
+	{
+		font-size: 65%;
+	}
+	.slider-item-photo
+	{
+    	width: 555px;
+	}
+	.slider-item-photo-row 
+	{
+    height: 117px;
+	}
+
+
 }
