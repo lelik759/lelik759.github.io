@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700');
 
-/*html
-{
-	font-size: 85%;
-}*/
+
 .wrapper
 {
 	font-family: "Century Gothic",monospace;
-	
 	max-width: 1663px;
 	background-color: #f6f6f6;
 	margin:15px;
@@ -45,7 +41,6 @@
 {
 	margin:0 auto 22px ;
 }
-
 .slider
 {
 	width: 100%;
@@ -56,13 +51,11 @@
 	position: relative;
 	padding-top: 22px;
 }
-
 .slider >div
 {
 	width: 85%;
 	height: 600px;
 	margin:0 auto;
-	
 }
 .slider-item__title
 {
@@ -89,7 +82,6 @@
 	max-width: 50%;
 	position: relative;
 }
-
 .slider-item__link
 {
 	max-width: 191px;
@@ -105,7 +97,6 @@
 	bottom:-100px;
 	right:170px;
 }
-
 .slider-item__link:hover
 {
 	border-bottom: 3px solid #ffea00;
@@ -122,28 +113,23 @@
 {
 	float: left;
 	width: 25%;
-
 }
-
 .mod-position
 {
 	position: relative;
 	top:0; 
 	left:180px;
 }
-
 .slider-item-photo-row
 {
 	height:151px;
 }
-
 .main-title
 {
 	width:50%;
 	margin:90px auto 60px;
 	text-align: center;
 }
-
 .main-title__title
 {
 	color: #424147;
@@ -153,7 +139,6 @@
 	text-transform: uppercase;
 	margin-bottom: 27px;
 }
-
 .main-title__text
 {
 	color: #424147;
@@ -162,20 +147,15 @@
 	line-height:1.312rem;
 	margin-bottom:60px;
 }
-
 .main-content
 {
 	display: inline-block;
 	position: relative;
 }
-
 .main-content-link__img
 {
 	display:block;
 }
-
-
-
 .main-content-link__text
 {
 	color: #ffffff;
@@ -197,13 +177,11 @@
 	bottom:8px;
 	right:84px;
 }
-
 .mod-color
 {
 	color:#ffea00;
 	right:24px;
 }
-
 .main-content-hidden-img
 {
 	width: 250px;
@@ -212,9 +190,7 @@
 	position: absolute;
 	top:0;
 	text-align: center;
-	
 }
-
 .main-content-hidden-imgdown
 {
 	width: 250px;
@@ -241,7 +217,6 @@
 	text-align: center;
 	padding: 27px 0;
 }
-
 .main-content-hidden-imgdown__text
 {
 	color: #ffffff;
@@ -249,7 +224,6 @@
 	font-weight: bold;
 	line-height:1.062rem;
 }
-
 .main-content-hidden:hover
 {
 	opacity:0;
@@ -266,7 +240,6 @@
 	text-align: center;
 	position: relative;
 }
-
 .main-title-block__head
 {
 	max-width:160px;
@@ -280,7 +253,6 @@
 	margin-bottom: 33px;
 	display:inline-block;
 }
-
 .main-title-block__head::after
 {
 	content:" ";
@@ -319,46 +291,36 @@
 {
 	vertical-align: top;
 	margin:0 5px 5px 0;
-	
 }
 .mod-size-top
 {
 	max-width:65.1%;
 }	
-
-
 .mod-size-middle
 {
 	width: 16.2%;
 	margin-right: 5px;
 }
-
 .mod-size-bottom
 {
 	width: 16.5%;
 }
-
 .mod_50
 {
 	width: 49.5%;
-
 }
-
 .mod_25
 {
 	max-width: 24.5%;
 }
-
 .filtering__img
 {
 	margin: 0 40px 0 0;
 }
-
 .mod-slider-client
 {
 	margin: 40px 100px 120px 100px ;
 }
-
 .footer
 {
 	width:100%;
@@ -366,7 +328,6 @@
 	background-color:#414146;
 	padding: 30px 0;
 }
-
 .footer-content
 {
 	width: 85.36%;
@@ -424,6 +385,7 @@
 	padding: 11px 18px;
 	margin-bottom:45px;
 	display:block;
+	border-bottom: 3px solid #000000;
 }
 
 .footer-section__link:hover
@@ -474,13 +436,10 @@
 	display: inline-block;
 	margin-top: 25px;
 }
-
-
 .footer-section-imglink img
 {
 	margin-right: 1px;
 }
-
 .mod-bg-address
 {
 	background:url(../img/adress.png) no-repeat center left;
@@ -507,7 +466,6 @@
 	vertical-align: middle;
 	margin-bottom: 130px;
 }
-
 .footer-section-form__input
 {
 	width: 52.72%;
@@ -516,7 +474,6 @@
 	margin-bottom: 130px;
 	background-color:rgba(0, 0, 0, 0);
 }
-
 .mod-nav-footer
 {
 	max-width: 100%;
@@ -524,13 +481,10 @@
 	padding: 25px 0;
 	justify-content: space-around;
 }
-
 .header__text-footer
 {
 	color: #ffffff;
 	font-size: 0.875rem/2rem 'Source Code Pro', monospace;;
-
-
 }
 .mod-item-footer
 {
@@ -541,6 +495,7 @@
 	background-color:black; 
 	opacity: 0.7;
 }
+
 
 
 
@@ -567,8 +522,6 @@
     width: 49.0%;
 	}
 }
-
-
 @media only screen and (min-width : 768px) and (max-width : 1224px)  
  {
 	html
