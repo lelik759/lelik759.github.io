@@ -22,7 +22,7 @@ ul,li{
 ul{
   overflow:hidden;
   padding:3em;
-  display:flex;
+
 }
 ul li a{
   text-decoration:none;
@@ -41,8 +41,9 @@ ul li a{
 }
 ul li{
 /*   margin:2em; */
-  margin:auto;
+  
 /*   float:left; */
+    display:flex;
 }
 ul li h2{
   font-size:140%;
@@ -57,6 +58,8 @@ ul li a{
   -webkit-transform: rotate(-6deg);
   -o-transform: rotate(-6deg);
   -moz-transform:rotate(-6deg);
+  margin:auto;
+  
 }
 ul li:nth-child(even) a{
   -o-transform:rotate(4deg);
