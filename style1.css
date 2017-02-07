@@ -58,6 +58,7 @@ ul li a{
   -webkit-transform: rotate(-6deg);
   -o-transform: rotate(-6deg);
   -moz-transform:rotate(-6deg);
+  text-align: center;
 
   
 }
