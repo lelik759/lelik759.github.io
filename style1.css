@@ -22,6 +22,7 @@ ul,li{
 ul{
   overflow:hidden;
   padding:3em;
+  display:flex;
 }
 ul li a{
   text-decoration:none;
@@ -39,8 +40,9 @@ ul li a{
   -webkit-transition:-webkit-transform .15s linear;
 }
 ul li{
-  margin:2em;
-  float:left;
+/*   margin:2em; */
+  margin:auto;
+/*   float:left; */
 }
 ul li h2{
   font-size:140%;
