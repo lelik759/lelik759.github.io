@@ -92,7 +92,9 @@ a{
 	margin-bottom: 12.25rem;
 }
 .header__photo
-{
+{	
+	max-width:6.8421%;
+	height: auto;
 	position: absolute;
 	bottom:6.875rem;
 	right:10rem;
