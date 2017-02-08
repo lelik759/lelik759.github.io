@@ -24,7 +24,7 @@ ul{
   padding:3em;
   display:flex;
   flex-wrap:wrap;
-  justify-content:space-between;
+  justify-content:center;
 
 }
 ul li a{
