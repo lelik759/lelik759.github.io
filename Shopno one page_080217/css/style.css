@@ -13,7 +13,7 @@ html
 }
 body{
 	margin: 0;
-	padding-top:65px; 
+	 
 }
 .clearfix::before,.clearfix::after {
 	content: '';
@@ -30,12 +30,14 @@ a{
 	max-width: 1140px;
 	width:90%; 
 	margin:0 auto;
+	position: relative;
 }
 .header
 {
 	text-align: center;
 	background-image: url(../img/bg.png);
-	position: relative;
+	
+	padding-top:65px;
 }
 .header-nav
 {	
