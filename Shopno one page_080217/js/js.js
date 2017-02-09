@@ -10,7 +10,7 @@ function openingMenu() {
 
 function closingMenu() {
 	headerNavHidden.style.right="-100%";
-	headerNavHidden.style.transition="right 4s"
+	headerNavHidden.style.transition="right 2s"
 }
 
 menuButton.addEventListener("click",openingMenu);

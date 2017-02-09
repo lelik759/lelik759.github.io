@@ -119,12 +119,10 @@ a{
 	position: fixed;
 	top:0;
 	right:-100%;
-
 	z-index: 998;
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
-	/*display: none;*/
 	transition: right 1s;
 }	
 .header-nav-hidden__item 
@@ -152,7 +150,7 @@ a{
 
 .header-nav-hidden__icon
 {
-	color: red;
+	color: #FF0000;
 	font-size: 2vw;
 	position: absolute;
 	top:0;
@@ -162,12 +160,4 @@ a{
 	margin:1vw 1.5vw;
 	cursor: pointer;
 }
-.active
-{
-	display: flex;
-}
 
-/*.hidden
-{
-	display: none;
-}*/
