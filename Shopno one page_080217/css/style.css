@@ -11,8 +11,9 @@ html
 {
 	font-size: 100%;
 }
-body{
+html,body,ul{
 	margin: 0;
+	padding: 0;
 	 
 }
 .clearfix::before,.clearfix::after {
@@ -36,7 +37,6 @@ a{
 {
 	text-align: center;
 	background-image: url(../img/bg.png);
-	
 	padding-top:65px;
 }
 .header-nav
@@ -45,7 +45,8 @@ a{
 	height: auto;
 	display: flex;
 	justify-content: space-between;
-	opacity: 0.99;
+	
+	
 }
 .header-nav__icon
 {
@@ -73,7 +74,7 @@ a{
 	/*font:700 2.8125rem/3.5rem  'Montserrat', sans-serif;*/
 	text-transform: uppercase;
 	margin: 12.875rem 0 9.375rem;
-	font:700 3.125vw/3.4vw  'Montserrat', sans-serif;
+	font:700 3.125vw/3.7vw  'Montserrat', sans-serif;
 }
 .header-title__bg
 {
@@ -103,3 +104,38 @@ a{
 }
 
 
+
+.header-nav-hidden
+{
+	width: 25%;
+	height:100vh;
+	background-color: black;
+	opacity: 0.8;
+	position: fixed;
+	top:0;
+	right:0;
+	z-index: 999;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+}	
+.header-nav-hidden__item 
+{
+	display:block;
+	list-style-type: none;
+	text-align: left;
+
+}
+
+.header-nav-hidden__item a
+{
+	color: #ffffff;
+	text-transform: uppercase;
+	font:400 1.8rem 'Montserrat', sans-serif;
+	margin-left: 25%;
+
+}
+.header-nav-hidden__item a:hover
+{
+	opacity: 0.5;
+}
