@@ -131,8 +131,8 @@ a{
 {
 	color: #ffffff;
 	text-transform: uppercase;
-	font:400 1.8rem 'Montserrat', sans-serif;
-	margin-left: 25%;
+	font:400 1.6vw 'Montserrat', sans-serif;
+	margin-left: 15%;
 
 }
 .header-nav-hidden__item a:hover
