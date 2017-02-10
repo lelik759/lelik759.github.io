@@ -32,6 +32,7 @@ a{
 	width:90%; 
 	margin:0 auto;
 	position: relative;
+	text-align: center;
 }
 .header
 {
@@ -99,8 +100,6 @@ a{
 	max-width:6.8421%;
 	height: auto;
 	position: absolute;
-	/*bottom:6.875rem;
-	right:10rem;*/
 	bottom:15%;
 	right:10%;
 }
@@ -131,8 +130,6 @@ a{
 	list-style-type: none;
 	text-align: left;
 	margin-bottom: 10%;
-
-
 }
 
 .header-nav-hidden__item a
@@ -161,3 +158,30 @@ a{
 	cursor: pointer;
 }
 
+.main-text-title__title
+{
+	opacity: 0.9;
+	color: #000000;
+	font-family: Montserrat;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 28px;
+	text-transform: uppercase;
+}
+
+
+.main-text-title__text
+{
+	opacity: 0.62;
+	color: #000000;
+	font-family: Merriweather;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	text-transform: uppercase;
+}
+
+.mod-margin-title
+{
+	margin: 120px 0;
+}
