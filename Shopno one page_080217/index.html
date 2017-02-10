@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Shopno one page</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css"/>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -11,9 +13,11 @@
 		<div class="wrapper">
 			<nav class="header-nav">
 				<div class="header-nav-logo">
-					<div class="header-nav-logo-text">
-						SH<span class="header-nav-logo-text__word">O</span>PNO
-					</div>
+					<a href="#">
+						<div class="header-nav-logo-text">
+							SH<span class="header-nav-logo-text__word">O</span>PNO
+						</div>
+					</a>
 				</div>
 				<span class="header-nav__icon">&#9776</span>
 				<ul class="header-nav-hidden">
@@ -30,7 +34,6 @@
 			</h1>
 			<a class="header__link" href="#">CONTACT US</a>
 			<img class="header__photo" src="img/cup.png" alt="cup">	
-
 		</div>
 	</header>
 	<main class="main">
@@ -38,19 +41,41 @@
 			<div class="main-text-title mod-margin-title"></div>
 			<h2 class="main-text-title__title">ABOUT US</h2>
 			<p  class="main-text-title__text">Lorem ipsum dolor sit amet event landing template</p>
+			<div class="main-slider">
+				
+					<div class="single-item">
+					  <div><img src="img/chair.png" alt="chair"></div>
+					  <div><img src="img/chair.png" alt="chair"></div>
+					  <div><img src="img/chair.png" alt="chair"></div>
+					
+				</div>	
+			</div>
 		</div>
 	</main>
 	
 
 
-<!-- 
+
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js">
 	</script>
 	<script type="text/javascript" src="js/jquery-migrate-3.0.0.min.js">
 	</script>
 	<script type="text/javascript" src="slick-1.6.0/slick/slick.min.js">
-	</script> -->
+	</script>
 	<script type="text/javascript" src="js/js.js">
-</script>
+	</script>
+
+
+	<script>
+	$(document).ready(function(){
+	  $('.single-item').slick({
+	  	dots: true,
+	  	arrows:false,
+	  });
+});
+
+
+
+	</script>
 </body>
 </html>

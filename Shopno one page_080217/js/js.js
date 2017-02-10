@@ -17,3 +17,4 @@ function closingMenu() {
 
 menuButton.addEventListener("click",openingMenu);
 buttonClose.addEventListener("click",closingMenu);
+

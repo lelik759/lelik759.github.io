@@ -46,8 +46,6 @@ a{
 	height: auto;
 	display: flex;
 	justify-content: space-between;
-	
-	
 }
 .header-nav__icon
 {
@@ -74,7 +72,6 @@ a{
 {
 	text-shadow: 0.25rem 0.5rem 0.625rem rgba(0, 0, 0, 0.24);
 	color: #505050;
-	/*font:700 2.8125rem/3.5rem  'Montserrat', sans-serif;*/
 	text-transform: uppercase;
 	margin: 12.875rem 0 9.375rem;
 	font:700 3.125vw/3.7vw  'Montserrat', sans-serif;
@@ -144,7 +141,6 @@ a{
 {
 	opacity: 0.5;
 }
-
 .header-nav-hidden__icon
 {
 	color: #FF0000;
@@ -157,7 +153,6 @@ a{
 	margin:1vw 1.5vw;
 	cursor: pointer;
 }
-
 .main-text-title__title
 {
 	opacity: 0.9;
@@ -168,8 +163,6 @@ a{
 	line-height: 28px;
 	text-transform: uppercase;
 }
-
-
 .main-text-title__text
 {
 	opacity: 0.62;
@@ -180,8 +173,16 @@ a{
 	line-height: 28px;
 	text-transform: uppercase;
 }
-
 .mod-margin-title
 {
 	margin: 120px 0;
+}
+
+.main-slider
+{
+	width: 37%;
+	max-height: 533px;
+	display: inline-block;
+	 background: url(../img/rectangle-1.png) 100% 50% no-repeat;
+	 margin:auto;
 }
