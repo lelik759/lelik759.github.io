@@ -48,6 +48,7 @@ a{
 	height: auto;
 	display: flex;
 	justify-content: space-between;
+
 }
 .header-nav__icon
 {
@@ -157,8 +158,7 @@ a{
 }
 .main-slider-article
 {
-	display:flex;
-	justify-content: space-around;
+margin: 0 auto;
 }
 .main-text-title__title
 {
@@ -169,6 +169,7 @@ a{
 	font-weight: 700;
 	line-height: 28px;
 	text-transform: uppercase;
+	margin-bottom: 17px;
 }
 .main-text-title__text
 {
@@ -190,7 +191,10 @@ a{
 	width: 37%;
 	max-height: 533px;
 	display: inline-block;
-	 background: url(../img/rectangle-1.png) 100% 50% no-repeat;
+	background: url(../img/rectangle-1.png) 100% 50% no-repeat;
+	background-size: 100% 80%;
+	margin-right: 115px;
+
 }
 .main-article
 {
