@@ -231,3 +231,14 @@ margin: 0 auto;
 	font-size: 17px;
 	margin:38px 0 27px;
 }
+
+
+.main-galery-block
+{
+	display: inline-block;
+	width: 32%;
+}
+.main-galery-block img
+{
+	max-width: 100%;
+}

@@ -137,7 +137,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: 25px;
+    bottom: -25px;
     display: block;
     width: 100%;
     padding: 0;
@@ -149,9 +149,10 @@
 {
     position: relative;
     display: inline-block;
-    width: 26px;
-    height: 26px;
-    background-color: #414146;;
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: #d0d0d0;
     margin: 0 2px;
     padding: 0;
     cursor: pointer;
@@ -161,8 +162,9 @@
     font-size: 0;
     line-height: 0;
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
     padding: 5px;
     cursor: pointer;
     color: transparent;
@@ -183,11 +185,12 @@
 .slick-dots li button:before
 {
     position: absolute;
-    top: 3px;
-    left: 3px;
-    width: 20px;
-    height: 20px;
-    background-color: #ffea00;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: #71f6eb;
     content: '';
     opacity: 0;
     
