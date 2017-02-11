@@ -1,7 +1,9 @@
 
-<style>
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-</style>
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 *,
 *::before,
 *::after {
@@ -11,7 +13,7 @@ html
 {
 	font-size: 100%;
 }
-html,body,ul{
+html,body,ul,h1,h2,h3,h4,h5,h6,p{
 	margin: 0;
 	padding: 0;
 	 
@@ -119,7 +121,7 @@ a{
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
-	transition: right 1s;
+	transition: right 0.5s;
 }	
 .header-nav-hidden__item 
 {
@@ -153,6 +155,11 @@ a{
 	margin:1vw 1.5vw;
 	cursor: pointer;
 }
+.main-slider-article
+{
+	display:flex;
+	justify-content: space-around;
+}
 .main-text-title__title
 {
 	opacity: 0.9;
@@ -184,5 +191,39 @@ a{
 	max-height: 533px;
 	display: inline-block;
 	 background: url(../img/rectangle-1.png) 100% 50% no-repeat;
-	 margin:auto;
+}
+.main-article
+{
+	display: inline-block;
+	width: 45%;
+}
+.main-article__title
+{
+	opacity: 0.75;
+	color: #000000;
+	font-family: Merriweather, serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: left;
+	margin-top:31px; 
+	display: block;
+}
+
+.main-article__text
+{
+	opacity: 0.74;
+	color: #000000;
+	font-family: Raleway, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: left;
+}
+
+.mod-article__title 
+{
+	font-size: 17px;
+	margin:38px 0 27px;
 }
