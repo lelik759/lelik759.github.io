@@ -238,7 +238,128 @@ margin: 0 auto;
 	display: inline-block;
 	width: 32%;
 }
-.main-galery-block img
+.main-galery-block__img
 {
 	max-width: 100%;
+}
+
+.main-service-column
+{
+	display: inline-block;
+	width: 57.2%;
+	height: 422px;
+	margin: 0 auto;
+}
+
+.main-service-column-block
+{
+	max-width: 100%;
+	max-height:33.4vw;
+	height: 422px;
+	position: relative;
+}
+.main-service-column-block__down
+{
+	max-width: 100%;
+	
+}
+
+.main-service-column-block-opacity
+{
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background: url(../img/rectangle-44-copy-3.png) 100% 0 no-repeat;
+	opacity: 0.6;
+	display: inline-flex;
+}
+
+.main-service-column-block-opacity-content
+{
+	width: 66%;
+	margin: auto;
+	text-align: left;
+    overflow: hidden; 
+   
+}
+
+.main-service-column-block-opacity-content__title
+{
+	opacity: 0.95;
+	color: #ffffff;
+	font-family: Merriweather;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 29px;
+	text-transform: uppercase;
+	margin-bottom: 27px;
+	display:block;
+}
+.main-service-column-block-opacity-content__text
+{
+	opacity: 0.9;
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.main-service-column-block-opacity-content__link
+{
+	opacity: 0.9;
+	color: #f9fbfb;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 85px;
+	text-transform: uppercase;
+	cursor:pointer;
+}
+.main-service-column-block-popup
+{
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background: url(../img/rectangle-44-copy-7.png) 100% 0 no-repeat;
+	
+}
+.main-service-column-block-popup-content
+{
+	width: 72.1%;
+	text-align: left;
+	margin: auto;
+}
+
+.main-service-column-block-popup-content__title
+{
+	opacity: 0.83;
+	color: #000000;
+	font-family: Merriweather;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 29px;
+	text-transform: uppercase;
+	margin-top: 63px;
+	display:block;
+}
+.main-service-column-block-popup-content__text
+{
+	opacity: 0.75;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	margin-top: 38px;
+}
+.main-service-column-block-popup-content__icon
+{
+	color: #000000;
+	font-size: 20px;
+	opacity: 0.4;
+	margin-top: 75px;
 }
