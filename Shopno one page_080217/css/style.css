@@ -211,7 +211,7 @@ margin: 0 auto;
 	line-height: 28px;
 	text-transform: uppercase;
 	text-align: left;
-	margin-top:31px; 
+	margin-bottom:31px; 
 	display: block;
 }
 
@@ -242,13 +242,17 @@ margin: 0 auto;
 {
 	max-width: 100%;
 }
+.main-service
+{
+	font-size: 0;
+}
 
 .main-service-column
 {
 	display: inline-block;
 	width: 57.2%;
-	height: 422px;
-	margin: 0 auto;
+	vertical-align: top;
+	
 }
 
 .main-service-column-block
@@ -257,6 +261,7 @@ margin: 0 auto;
 	max-height:33.4vw;
 	height: 422px;
 	position: relative;
+	margin-bottom:13px; 
 }
 .main-service-column-block__down
 {
@@ -316,7 +321,16 @@ margin: 0 auto;
 	line-height: 85px;
 	text-transform: uppercase;
 	cursor:pointer;
+	display: inline-block;
+
 }
+.main-service-column-block-opacity-content__link::after
+{
+	content: "\2192";
+	margin-left:20px;
+}
+
+
 .main-service-column-block-popup
 {
 	position: absolute;
@@ -325,7 +339,7 @@ margin: 0 auto;
 	right:0;
 	bottom:0;
 	background: url(../img/rectangle-44-copy-7.png) 100% 0 no-repeat;
-	
+	/*display: none;*/
 }
 .main-service-column-block-popup-content
 {
@@ -363,3 +377,21 @@ margin: 0 auto;
 	opacity: 0.4;
 	margin-top: 75px;
 }
+.mod-column-block
+{
+	
+	height: auto;
+
+}
+
+.mod-service-column
+{
+	width: 41.57%;
+	margin-left: 13px;
+}
+
+.mod-service-column-margin
+{
+	margin-left: 13px;
+}
+
