@@ -250,7 +250,7 @@ margin: 0 auto;
 .main-service-column
 {
 	display: inline-block;
-	width: 57.2%;
+	width: 56.5%;
 	vertical-align: top;
 	
 }
@@ -339,7 +339,7 @@ margin: 0 auto;
 	right:0;
 	bottom:0;
 	background: url(../img/rectangle-44-copy-7.png) 100% 0 no-repeat;
-	/*display: none;*/
+	display: none;
 }
 .main-service-column-block-popup-content
 {
@@ -376,6 +376,7 @@ margin: 0 auto;
 	font-size: 20px;
 	opacity: 0.4;
 	margin-top: 75px;
+	cursor: pointer;
 }
 .mod-column-block
 {
@@ -386,12 +387,16 @@ margin: 0 auto;
 
 .mod-service-column
 {
-	width: 41.57%;
+	width: 41%;
 	margin-left: 13px;
 }
 
 .mod-service-column-margin
 {
-	margin-left: 13px;
+	margin:0 13px 0 0;
 }
 
+.show
+{
+display: block;
+}
