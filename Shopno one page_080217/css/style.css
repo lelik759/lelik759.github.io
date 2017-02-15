@@ -232,16 +232,6 @@ margin: 0 auto;
 	margin:38px 0 27px;
 }
 
-
-.main-galery-block
-{
-	display: inline-block;
-	width: 32%;
-}
-.main-galery-block__img
-{
-	max-width: 100%;
-}
 .main-service
 {
 	font-size: 0;
@@ -276,9 +266,10 @@ margin: 0 auto;
 	left:0;
 	right:0;
 	bottom:0;
-	background: url(../img/rectangle-44-copy-3.png) 100% 0 no-repeat;
+	background: url(../img/rectangle-44-copy-3.png) 50% 0 no-repeat;
 	opacity: 0.6;
 	display: inline-flex;
+	margin: 0 auto;
 }
 
 .main-service-column-block-opacity-content
@@ -341,6 +332,10 @@ margin: 0 auto;
 	background: url(../img/rectangle-44-copy-7.png) 100% 0 no-repeat;
 	display: none;
 }
+.show
+{
+display: block;
+}
 .main-service-column-block-popup-content
 {
 	width: 72.1%;
@@ -377,6 +372,7 @@ margin: 0 auto;
 	opacity: 0.4;
 	margin-top: 75px;
 	cursor: pointer;
+	display: inline-block;
 }
 .mod-column-block
 {
@@ -396,7 +392,99 @@ margin: 0 auto;
 	margin:0 13px 0 0;
 }
 
-.show
+
+.main-galery-block
 {
-display: block;
+	display: inline-block;
+	width: 32%;
+}
+.main-galery-block__img 
+{
+	max-width: 100%;
+}
+.main-galery-column
+{
+	display: inline-block;
+	width: 32%;
+}
+.main-galery-column-block
+{
+	position: relative;
+
+
+}
+.main-galery-column-block__img 
+{
+	max-width: 100%;
+}
+.main-galery-column-block-comment
+{
+	max-width: 335px;
+	width: 80%;
+	height: 55%;
+	box-shadow: 3px 6px 16px rgba(20, 20, 21, 0.18);
+	background-color: #6df6eb;
+	opacity: 0.98;
+	position: absolute;
+  	left:10%;
+  	bottom:10%;
+  	text-align: left;
+  	padding: 43px 30px 43px 28px;
+  	/*display: none;*/
+  	opacity: 0;
+  	transition: 2s opacity;
+}
+
+.main-galery-column-block-comment::before
+{
+	content: '';
+	width: 0;
+	 height: 0;
+  	border: 20px solid transparent;
+  	border-bottom-color: #6df6eb;;
+  	position: absolute;
+  	top:-36px;
+  	left:20px;
+}
+
+.main-galery-column-block-comment__title
+{
+	opacity: 0.95;
+	font-family: Merriweather;
+	line-height: 24px;
+	color: #272727;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.main-galery-column-block-comment__mod-title
+{
+	color: #767070;
+	font-size: 15px;
+	font-weight: 400;
+	font-style: italic;
+}
+.main-galery-column-block-comment__text
+{
+	opacity: 0.8;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 23px 0 39px;
+}
+.main-galery-column-block-comment__img
+{
+	margin-right: 5%;
+}
+.main-galery-column-block-comment__img:hover
+{
+	opacity: 0.5;
+}
+.main-galery-column-block:hover .main-galery-column-block-comment
+{
+	/*display: block;*/
+	opacity: 1;
+	transition: 2s opacity;
 }
