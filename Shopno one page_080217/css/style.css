@@ -16,7 +16,10 @@ html
 html,body,ul,h1,h2,h3,h4,h5,h6,p{
 	margin: 0;
 	padding: 0;
-	 
+}
+body
+{
+	background-color: #f9fbfb;
 }
 .clearfix::before,.clearfix::after {
 	content: '';
@@ -378,7 +381,6 @@ display: block;
 {
 	
 	height: auto;
-
 }
 
 .mod-service-column
@@ -487,4 +489,44 @@ display: block;
 	/*display: block;*/
 	opacity: 1;
 	transition: 2s opacity;
+}
+
+
+.main-slider-down__img
+{
+	max-width: 393px;		
+	 display: inline-block;
+	 vertical-align: top;
+	 margin-right: 5%;
+
+
+}
+.main-slider-down__text  
+{
+	
+	opacity: 0.7;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 27px;
+	margin:32px 0;
+}
+.main-slider-down-block-wrap
+{
+	max-width: 667px;
+	width: 55%;
+	height: 362px;
+	border-radius: 3px;
+	background-color: #eaebed;
+	display: inline-block;
+	margin-top: 3.5%;
+	padding-top: 101px;
+}
+
+.main-slider-down-block 
+{
+	background: url(../img/rectangle-1.png) 2% 52% no-repeat;
+	background-size: 37.2% 83%;
+
 }

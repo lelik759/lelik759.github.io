@@ -309,6 +309,25 @@
 				<h2 class="main-text-title__title">what they says</h2>
 				<p  class="main-text-title__text">Lorem ipsum dolor sit amet event landing template</p>
 			</div>
+			<div class="main-slider-down">
+				<div class="multiple-items">
+				    <div class="main-slider-down-block">
+				    	<div class="main-slider-down__img" >
+				    		<img  src="img/team-1.png" alt="women">
+				    	</div>
+					    	<div class="main-slider-down-block-wrap">
+						    	<span class="main-galery-column-block-comment__title">TIM IFELSE</span>
+									<span class="main-galery-column-block-comment__mod-title">/ SEO Senior</span><br> 
+								<p class="main-slider-down__text">
+						    		Lorem Ipsum is simply dummy text of the printing and you<br> standard dummy know that text ever since the 1500s, when<br> an unknown printer took a galley of type and scrambled it to<br> make a type specimen book.
+						    	</p>
+					    	</div>
+				    </div>
+				    <div>your content</div>
+				    <div>your content</div>
+				    <div>your content</div>
+				</div>
+			</div>
 		</div>
 		
 	</main>
@@ -333,11 +352,35 @@
 	  	arrows:false,
 	  	autoplay:true
 	  });
-});
-
-
+	});
 
 	</script>
+
+	<script>
+	$(document).ready(function(){
+		$('.multiple-items').slick({
+		  dots: true,
+		  // infinite: true,
+		  slidesToShow: 1,
+		  slidesToScroll:1,
+		  
+		  
+		});
+	});
+	</script>
+	<!-- <script>
+	$(document).ready(function(){
+		$('.fade').slick({
+		  dots: true,
+		  infinite: true,
+		  speed: 500,
+		  fade: true,
+		  cssEase: 'linear'
+
+		  
+		});
+	});
+	</script> -->
 </body>
 </html>
 
