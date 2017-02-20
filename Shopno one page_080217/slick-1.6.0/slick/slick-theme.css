@@ -41,13 +41,14 @@
 .slick-next
 {
     right:40px;
-    bottom: -180px;
+    bottom: -45px;
+    
 }
 
 .slick-prev
 {
     right:140px;
-    bottom: -180px;
+    bottom: -45px;
 }
 
 .slick-next:hover
