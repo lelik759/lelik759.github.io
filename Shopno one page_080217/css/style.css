@@ -110,7 +110,7 @@ a{
 }
 .header-nav-hidden 
 {
-	width: 25%;
+	width: 35%;
 	height:100vh;
 	background-color: black;
 	opacity: 0.8;
@@ -135,7 +135,7 @@ a{
 {
 	color: #ffffff;
 	text-transform: uppercase;
-	font:400 1rem 'Montserrat', sans-serif;
+	font:400 1.7rem 'Montserrat', sans-serif;
 	margin-left: 15%;
 
 }
