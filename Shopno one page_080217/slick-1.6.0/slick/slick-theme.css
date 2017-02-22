@@ -32,17 +32,12 @@
     box-shadow: 3px 7px 11px rgba(20, 20, 21, 0.05);
     border-radius: 3px;
     background-color: #ffffff;
-    
-
 }
-
-
 
 .slick-next
 {
     right:40px;
     bottom: -45px;
-    
 }
 
 .slick-prev
@@ -82,7 +77,6 @@
 {
     font-family: 'slick';
     font-size: 40px;
-    line-height: 1;
     opacity: .75;
     color: white;
 
