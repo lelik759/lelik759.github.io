@@ -203,3 +203,23 @@
         height: 5%;
     }
 }
+
+@media (max-width: 980px) 
+{
+    .slick-next
+    {
+        right:40%;
+        bottom: -12%;
+        width: 5%;
+        height: 5%;
+    }
+
+    .slick-prev
+    {
+        right:54%;
+        bottom: -12%;
+        width: 5%;
+        height: 5%;
+    }
+
+}

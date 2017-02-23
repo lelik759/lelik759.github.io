@@ -675,7 +675,6 @@ display: block;
 	{
 		height: auto;
 		width: 80%;
-
 	}
 	.main-slider-down-block 
 	{
@@ -699,6 +698,39 @@ display: block;
 	{
 		width: 80%;
 		margin-bottom: 10.78%;
+	}
+}
+
+@media (max-width: 980px) 
+{  
+	
+	.main-slider-down-block 
+	{
+		background: url(../img/rectangle-1.png) 2% 52% no-repeat;
+		background-size: 0;
+	}
+	.main-slider-down__img 
+	{
+		margin-right: 0;
+		width: 80%;
+	}
+	.main-slider-down-block-wrap 
+	{
+		height: auto;
+		width: 80%;
+	}
+	.footer-form 
+	{
+	    width: 80%;
+	}
+	.footer-address
+	{
+		width: 80%;
+		margin-bottom: 10.78%;
+	}
+	.main-spoler
+	{
+		margin-top: 26.66%;
 	}
 }
 
