@@ -187,7 +187,6 @@ margin: 0 auto;
 	background: url(../img/rectangle-1.png) 100% 50% no-repeat;
 	background-size: 100% 80%;
 	margin-right: 10.08%;
-
 }
 .main-article
 {
@@ -195,6 +194,7 @@ margin: 0 auto;
 	width: 45%;
 	vertical-align: top;
 	margin-top: 4.38%;
+	text-align: left;
 }
 .main-article__title
 {
@@ -202,7 +202,6 @@ margin: 0 auto;
 	color: #000000;
 	font:700 1.25rem/1.4 Merriweather, serif;
 	text-transform: uppercase;
-	text-align: left;
 	margin-bottom:6.51%; 
 	display: block;
 }
@@ -212,7 +211,6 @@ margin: 0 auto;
 	opacity: 0.74;
 	color: #000000;
 	font:400 1rem/1.75 Raleway, sans-serif;
-	text-align: left;
 }
 
 .mod-article__title 
@@ -405,7 +403,7 @@ display: block;
   	left:10%;
   	bottom:10%;
   	text-align: left;
-  	padding: 11.84% 8.26%;
+  	padding: 11.84% 4.26%;
   	opacity: 0;
   	transition: 2s opacity;
 }
@@ -627,7 +625,25 @@ display: block;
 }	
 
 
-
+@media (max-width: 750px) 
+{  
+	.wrapper
+	{
+		width:99%; 
+	}
+	.main-slider
+	{
+		width: 80%;
+		max-height: 533px;
+		margin: 0 auto;	
+	}
+	.main-article
+	{
+		width: 45%;
+		margin-top: 8.38%;
+		text-align: center;
+	}
+}
 
 
 /*более 1300 пикс (центральный блок wrapper имеет ширину 1174пик)
