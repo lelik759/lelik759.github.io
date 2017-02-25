@@ -374,7 +374,8 @@ display: block;
 }
 .main-galery-block__img 
 {
-	max-width: 100%;
+	display: inline-block;
+	width: 30%;
 }
 .main-galery-column
 {
@@ -384,8 +385,7 @@ display: block;
 .main-galery-column-block
 {
 	position: relative;
-
-
+	display: inline-block;
 }
 .main-galery-column-block__img 
 {
