@@ -367,12 +367,12 @@ display: block;
 }
 
 
-.main-galery-block
+/*.main-galery-block
 {
 	display: inline-block;
 	width: 32%;
-}
-.main-galery-block__img 
+}*/
+.main-galery__img 
 {
 	display: inline-block;
 	width: 30%;
@@ -699,6 +699,15 @@ display: block;
 		width: 80%;
 		margin-bottom: 10.78%;
 	}
+	.main-galery__img
+	{
+		width: 80%;
+
+	}
+	.main-galery-column-block__img
+	{
+		width: 100%;
+	}
 }
 
 @media (max-width: 980px) 
@@ -732,6 +741,7 @@ display: block;
 	{
 		margin-top: 26.66%;
 	}
+	
 }
 
 @media (max-width: 1300px) 
@@ -757,5 +767,15 @@ display: block;
 		width: 80%;
 		margin-bottom: 10.78%;
 	}
+	
 }
 
+@media (max-width: 980px) and (min-width: 751px)
+{
+	.main-galery__img
+	{
+		width: 49%;
+
+	}
+
+}
