@@ -83,7 +83,6 @@ a{
 		font-size: 150px;
 		font-weight: 700;
 		line-height: 140px;
-		padding: 0 100px;
 		margin-bottom:65px;
 }
 .repetition-big .repetition-title::after{
@@ -195,17 +194,12 @@ font-weight: 700;
 	position: absolute;
 	top:0;
 }
-
 .bottom1:hover::before {
 	display: block;
 }	
 	
 
-
-
 /*НАЧАЛО ВТОРОГО БЛОКА*/
-
-
 
 .abzac{
 	margin:0;
@@ -213,10 +207,7 @@ font-weight: 700;
 	color: #999;
 	font:400 15px/24px'Roboto', sans-serif;
 	padding: 0 133px;
-
 }
-
-
 
 .foto{
 	width: 380px;
@@ -224,15 +215,13 @@ font-weight: 700;
 	position: relative;
 	margin-right:2%; 
 	display: inline-block;
-	vertical-align: top;
-	
+	vertical-align: top;	
 }
-
 .foto:last-child {
 	margin-right: 0;
 }
-
-.hidden {
+.hidden 
+{
 	display: none;
 	color: white;
 	font:700 18px 'Montserrat',sans-serif;
@@ -263,9 +252,8 @@ font-weight: 700;
 	display: block;
 }
 	
-
-
-.wrapperlazur{
+.wrapperlazur
+{
 	/*width: 1920px;*/
 	background-color: #95e1d3;
 	margin-top:110px;
