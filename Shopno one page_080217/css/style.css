@@ -777,5 +777,16 @@ display: block;
 		width: 49%;
 
 	}
+	.main-galery-column-block
+	{
+		width: 42%;
+	}
+}
 
+@media (max-width: 1300px) and (min-width: 981px)
+{
+	.main-galery-column-block
+	{
+		width: 30%;
+	}
 }
