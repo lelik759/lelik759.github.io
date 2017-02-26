@@ -49,11 +49,15 @@ ul li{
 ul li h2{
   font-size:140%;
   font-weight:bold;
-  padding-bottom:10px;
+  padding-bottom:10%;
 }
 ul li p{
   font-family:"Reenie Beanie",arial,sans-serif;
-  font-size:180%;
+  font-size:130%;
+  width: 40%;
+  text-align: left;
+  display: inline-block;
+  line-height: 175%;
 }
 ul li a{
   -webkit-transform: rotate(-6deg);
@@ -101,6 +105,7 @@ ol li{display:inline;padding-right:1em;}
 ol li a{color:#fff;}
 img
 {
-  width:30%;
+  width:55%;
+  vertical-align: top;
 }
 
