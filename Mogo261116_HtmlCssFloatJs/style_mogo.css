@@ -41,6 +41,7 @@ a{
 	margin:0 auto;
 	text-align: center;
 	position: relative;
+	width: 90%;
 
 }
 /*ЗАГОЛОВКИ*/
@@ -720,10 +721,7 @@ display: block;
 
 .sots img{
 	margin-left: 15px;
-
 }
-
-
 
 .kfoll{
 	
@@ -735,8 +733,6 @@ display: block;
 	
 	font:400 14px 'Montserrat',sans-serif;
 }
-
-
 .sots::before{
 	content: '';
 	display:block;
@@ -744,13 +740,10 @@ display: block;
 	height: 1px;
 	background-color: #e5e5e5;
 	margin: 18px 0;
-
 }
-
 .form{
 	margin-top: 39px;
 }
-
 .but{
 	width: 150px;
 	height: 40px;
@@ -766,35 +759,24 @@ display: block;
 	color: #ccc;
 	font:300 15px/24px'Roboto', sans-serif;		
 	font-style: italic;
-
 }
-
 .sub{
 	color: white;
 	font:700 14px 'Montserrat',sans-serif;
 	text-transform: uppercase;
 }
-
-
 .center{
 	float: left;
 	vertical-align: middle;
 	margin-left: 50px;
-
 }
-
-
-
-
 .blog img{
 	margin-right: 20px;
 	vertical-align: middle;
 	width: 119px;
 }
-
 .blog img:hover{
 	opacity: 0.8;
-
 }
 
 .blog span:nth-child(2){
