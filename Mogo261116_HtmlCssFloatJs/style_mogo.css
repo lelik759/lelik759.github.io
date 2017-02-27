@@ -13,21 +13,30 @@
 *::after {
 	box-sizing: border-box;
 }
+html
+{
+	
+	font-size: calc( (100vw - 480px)/(1280 - 480) * (16 - 8) + 8px);
+}
 
-body{
+body
+{
 	margin: 0;
 }
 
-.clearfix::before,.clearfix::after {
+.clearfix::before,.clearfix::after 
+{
 	content: '';
 	display: table;
 	clear: both;
 }
 
-a{
+a
+{
 	text-decoration: none;
 }
-.eagle{
+.eagle
+{
 	
 	background-image: url(img/eagle.png);
 	background-size:cover;
@@ -51,16 +60,18 @@ a{
 }
 
 .repetition-subtitle{
-	font:400 24px 'Kaushan Script',cursive;
+	font:400 1.5rem 'Kaushan Script',cursive;
 	margin-bottom: 23px;
 	margin-top:109px;
+	font-size: 1.5rem;
 	
 }
 
 .repetition-title{
-	font:700 30px 'Montserrat',sans-serif;
+	font:700 1.875rem 'Montserrat',sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 40px;
+	font-size: 1.875rem;
 }
 
 .repetition-title::after{
@@ -72,18 +83,21 @@ a{
 	margin: 40px auto 47px;
 }
 
-.repetition-big{
+.repetition-big
+{
 	color: white;
 }
 
-.repetition-big .repetition-subtitle{
-		font-size: 72px;
+.repetition-big .repetition-subtitle
+{
+		font-size: 4.5rem;
 		margin-bottom:42px;
 }
-.repetition-big .repetition-title{
-		font-size: 150px;
+.repetition-big .repetition-title
+{
+		font-size: 9.375rem;
 		font-weight: 700;
-		line-height: 140px;
+		line-height: 1.4;
 		margin-bottom:65px;
 }
 .repetition-big .repetition-title::after{
@@ -163,8 +177,7 @@ font:700 30px 'Montserrat', sans-serif ;
 }
 
 .bottom1{
-	width:280px;
-	height: 45px;
+	width:21.87%;
 	border-top: 3px solid white;
 	display:inline-block;
 	color: white;
@@ -206,7 +219,7 @@ font-weight: 700;
 	margin:0;
 	margin-bottom: 101px;
 	color: #999;
-	font:400 15px/24px'Roboto', sans-serif;
+	font:400 0.975rem/1.2 'Roboto', sans-serif;
 	padding: 0 133px;
 }
 
@@ -275,7 +288,7 @@ font-weight: 700;
 .lazur span:nth-of-type(1){
 	font-size:72px;
 	font-weight: 700; 
-	margin:0 76px 30px 76px;
+	margin:0 auto 30px;
 }
 .lazur span:nth-of-type(2){
 	font-size:14px; 
@@ -434,7 +447,7 @@ font-weight: 700;
 	color: #999;
 	font:300 24px/36px 'Roboto',sans-serif;
 	font-style: italic;
-	width: 767px;
+	width: 50%;
 	text-align:left;
 	display: inline-block;
 
@@ -863,27 +876,6 @@ font:400 14px 'Montserrat',sans-serif;
 	margin: 95px 0 25px 0;
 
 }
-
-
-@media  (max-width: 1200px) {
-
-	.bottom1 {
-		width:180px;
-	}
-
-	.foto    {
-
-		display: block;
-		margin: 0 auto;
-	}
-
-	.foto:last-child {
-    margin-right: auto;
-	}
-	
-}
-
-
 
 .revert{
 	transform: rotate(180deg);
