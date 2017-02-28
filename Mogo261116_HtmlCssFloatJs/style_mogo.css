@@ -63,7 +63,7 @@ a
 	font:400 1.5rem 'Kaushan Script',cursive;
 	margin-bottom: 23px;
 	margin-top:109px;
-	font-size: 1.5rem;
+	
 	
 }
 
@@ -71,7 +71,7 @@ a
 	font:700 1.875rem 'Montserrat',sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 40px;
-	font-size: 1.875rem;
+
 }
 
 .repetition-title::after{
@@ -130,13 +130,13 @@ a
 
  .header a:nth-child(n+2){
 	float: right;
-	font:400 14px 'Montserrat', sans-serif ;
+	font:400 0.875rem 'Montserrat', sans-serif ;
 	text-transform: uppercase;
 	margin:12px 0 0 57px;
 }
 
 .header a>span{
-font:700 30px 'Montserrat', sans-serif ;
+font:700 1.875rem 'Montserrat', sans-serif ;
 }
 
 .header a:nth-child(n+2):hover {
@@ -149,7 +149,7 @@ font:700 30px 'Montserrat', sans-serif ;
     border: 3px solid white;
     padding: 15px 33px; 
     color: white;
-	font:700 14px  'Montserrat', sans-serif;
+	font:700 0.875rem  'Montserrat', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -181,7 +181,7 @@ font:700 30px 'Montserrat', sans-serif ;
 	border-top: 3px solid white;
 	display:inline-block;
 	color: white;
-	font:400 18px'Montserrat', sans-serif;
+	font:400 1.125rem 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	text-align: left;
 	padding-top: 17px;
@@ -189,7 +189,7 @@ font:700 30px 'Montserrat', sans-serif ;
 }
 
 .bottom1 span{
-font-size: 24px;
+font-size: 1.5rem;
 font-weight: 700;
 }
 
@@ -224,15 +224,12 @@ font-weight: 700;
 }
 
 .foto{
-	width: 380px;
+	width: 362px;
 	min-height:240px; 
 	position: relative;
 	margin-right:2%; 
 	display: inline-block;
 	vertical-align: top;	
-}
-.foto:last-child {
-	margin-right: 0;
 }
 .hidden 
 {
@@ -286,12 +283,12 @@ font-weight: 700;
 	text-transform: uppercase;
 }
 .lazur span:nth-of-type(1){
-	font-size:72px;
+	font-size:4.5rem;
 	font-weight: 700; 
 	margin:0 auto 30px;
 }
 .lazur span:nth-of-type(2){
-	font-size:14px; 
+	font-size:0.875rem; 
 	font-weight: 400;
 }
 .lazur {
@@ -314,14 +311,13 @@ font-weight: 700;
 	position: relative;
 	display: inline-block;
 	margin:20px 100px 20px 0;
-
-	width: 300px;
+	width: 25%;
 	
 }
 
 .amaz span {
 	color: #333;
-	font:400 14px 'Montserrat',sans-serif;
+	font:400 0.875rem 'Montserrat',sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 20px; 
 }
@@ -399,7 +395,7 @@ font-weight: 700;
 
 .menu span{
 	color: #333;
-	font:400 14px 'Montserrat',sans-serif;
+	font:400 0.875rem 'Montserrat',sans-serif;
 	text-transform: uppercase;
 	float: left;
 	margin: 25px 0;
@@ -445,7 +441,7 @@ font-weight: 700;
 
 .footp{
 	color: #999;
-	font:300 24px/36px 'Roboto',sans-serif;
+	font:300 1.5rem/2 'Roboto',sans-serif;
 	font-style: italic;
 	width: 50%;
 	text-align:left;
@@ -457,7 +453,7 @@ font-weight: 700;
 .Jon{
 	color: #333;
 	font-family: "Kaushan Script";
-	font-size: 24px;
+	font-size: 1.5rem;
 	font-weight: 400;
 }
 .Jon::before {
@@ -542,7 +538,7 @@ div.slider-text:nth-of-type(1){
 }
 
 .moto{
-	width: 380px;
+	width: 362px;
 	height: 470px;
 	margin-right: 25px;
 	margin-bottom: 270px;
@@ -609,7 +605,6 @@ div.slider-text:nth-of-type(1){
 .clients{
 	max-width: 1104px;
 
-	
 }
 
 .clients img{
@@ -652,7 +647,7 @@ div.slider-text:nth-of-type(1){
 
 .tete{
 	color: #333;
-	font:400 14px 'Montserrat',sans-serif;
+	font:400 0.875rem 'Montserrat',sans-serif;
 	text-transform: uppercase;
 	display:block;
 	margin:20px 0;
@@ -672,7 +667,7 @@ div.slider-text:nth-of-type(1){
 	text-align: left;
 	position: relative;
 	display: inline-block;
-	margin:0 30px 118px 0;
+	margin:0 20px 118px 0;
 	
 }
 
@@ -885,3 +880,68 @@ font:400 14px 'Montserrat',sans-serif;
 	display: block;
 }
 
+
+@media (max-width: 980px)
+{
+	.clients
+	{
+		width:15%;
+	}
+	.amaz
+	{
+		width: 300px;
+		display:block;
+		margin-left: 33%;
+	}
+	.foto
+	{
+		display:block;
+		margin:0 auto 3%;
+	}
+	.moto
+	{
+		display:block;
+		margin:0 auto 3%;
+	}
+	.last
+	{
+		display:block;
+		margin-left: 29%;
+	}
+	.albumtop div 
+	{
+    	display: inline-block;
+    	width: 50%;
+	}
+	
+
+}
+
+
+@media (max-width: 1300px)
+{
+	.foto
+	{
+		display:block;
+		margin:0 auto 3%;
+	}
+	.moto
+	{
+		display:block;
+		margin:0 auto 3%;
+	}
+	.last
+	{
+		display:block;
+		margin-left: 29%;
+	}
+}
+
+@media (max-width: 750px)
+{
+	.albumtop div 
+	{
+    	display: inline-block;
+    	width: 52%;
+	}
+}
