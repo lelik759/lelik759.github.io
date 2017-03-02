@@ -28,7 +28,7 @@ a
 
 .wrapper
 {
-	width: 1020px;
+	max-width: 1020px;
 	margin:0 auto ;
 	font-family: 'Gotham',sans-serif;
 }
@@ -468,21 +468,6 @@ margin-top: 0;
 	
 }
 
-.arrow a
-{
-	
-	font:100 60px/29px 'Gotham',sans-serif;
-	text-transform: uppercase;
-	transform: rotate(90deg);
-	position: absolute;
-	bottom:15px;
-	right: -100px;
-}
-
-.arrow a
-{
-	color: black;
-}
 
 .link .dropdown:hover
 {
