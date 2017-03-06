@@ -274,3 +274,8 @@ a
  	color: #b60000;
 	text-decoration: underline;
 }
+
+.img-responsive
+{
+	margin-right: 1%;
+}
