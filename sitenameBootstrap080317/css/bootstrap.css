@@ -1130,6 +1130,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+.img-responsive
+{
+  display: inline-block;
+}
+
 .img-rounded {
   border-radius: 6px;
 }
