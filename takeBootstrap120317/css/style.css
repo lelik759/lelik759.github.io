@@ -25,7 +25,6 @@ a
 	text-decoration: none;
 }
 
-
 #header-background
 {
 	position: relative;
@@ -39,14 +38,11 @@ a
 {
 	padding-top: 56px;
 }
-
-
 .logo a{
 	color: #fff;
 	font:800 21px/21px 'Merriweather', serif;
 	font-style: italic;
 	display: flex;
-	
 }
 
 .logo a span
@@ -77,7 +73,6 @@ h1
     top: 50%;
     transform: translateY(-50%);
 }
-
 .iphone
 {
 	position: absolute;
@@ -138,8 +133,6 @@ h3
 	word-wrap: break-word;
 	margin-bottom: 40px; 
 }
-
-
 .img a
 {
 	color: #fff;
@@ -151,14 +144,12 @@ h3
 	opacity: 0.8;
 }
 
-
 .img a::after
 {
 	content:'\2192';
 	color: #fff;
 	margin-left: 15px;
 }
-
 .second
 {
 	background-color: #615f7d;
@@ -191,7 +182,6 @@ h3
 	background-image: url(../img/layer-5.png) ;
 	background-color:#000000 ;
 }
-
 .five p
 {
 	width: 438px;
@@ -202,7 +192,6 @@ h3
 	background-color: #82ca9c;
 	
 }
-
 .seven
 {	
 	width: 285px;
@@ -211,10 +200,9 @@ h3
 	background-image: url(../img/layer-14.png);
 }
 
-/*
 .galery
 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
-}*/
+}
