@@ -14,7 +14,10 @@ body
 	font-family: "Arial", sans-serif;
 	
 }
-
+html
+{
+	font-size: 16px;
+}
 p
 {
 	margin: 0;
@@ -23,6 +26,7 @@ p
 a
 {
 	text-decoration: none;
+
 }
 
 #header-background
@@ -59,7 +63,7 @@ a
 h1
 {
 	color: #fff;
-	font:300 60px 'Open Sans',sans-serif;
+	font:300 3.75rem 'Open Sans',sans-serif;
 }
 
 .header-text
@@ -85,7 +89,7 @@ h1
 h2
 {
 	color: #222626;
-	font:300 35px/24px 'Open Sans',sans-serif;
+	font:300 2.187rem/0.68 'Open Sans',sans-serif;
 	margin-bottom: 30px;
 	display: block;
 }
@@ -118,8 +122,7 @@ h2
 h3
 {
 	color: #fff;
-	font:300 30px 'Open Sans',sans-serif;
-	font-size: 30px;
+	font:300 1.875rem 'Open Sans',sans-serif;
 	margin-bottom: 24px;
 }
 
@@ -216,8 +219,11 @@ h3
 	color: #67676d;
 	font:600 13px/24px 'Open Sans',sans-serif;
 	display: block;
-	
-	
+}
+
+.text
+{
+	margin-bottom: 165px;
 }
 
 .text-block p
@@ -289,7 +295,6 @@ h3
 	max-width: 570px;
 	padding: 47px 0 56px 53px;
 	position: relative;
-
 }
 
 .btn-small
@@ -308,7 +313,7 @@ h3
 h4
 {
 	color: #2e3b4e;
-	font:300 30px/40px 'Open Sans',sans-serif;
+	font:300 1.875rem/1.333 'Open Sans',sans-serif;
 	margin-bottom: 25px;
 }
 
@@ -370,4 +375,88 @@ h4+p
 .last
 {
 	top:83px;
+}
+.footer-background
+{
+	width: 100%;
+	background-color: #192431;
+}
+
+.footer
+{
+	padding: 93px 0 157px;
+}
+
+.footer-text
+{
+	color: #f6f7fa;
+	font:600 13px/24px 'Open Sans',sans-serif;
+	margin-bottom: 29px;
+	display:block;
+}
+
+.small a
+{
+	font:400 13px/24px 'Open Sans',sans-serif;
+	color: #f6f7fa;
+	display: block;
+}
+
+.small a:hover
+{
+	text-decoration: underline;
+}
+
+.small	
+{
+	display: inline-block;
+}
+
+p.small
+{
+	margin-bottom: 73px;
+}
+
+.footer-col
+{
+	display: inline-block;
+	margin-right: 95px;
+}
+
+.footer-col:last-child
+{
+	margin: 0;
+}
+.form-text
+{
+	
+	color: #57697f;
+	font:400 12px/18px 'Open Sans',sans-serif;
+}
+
+input
+{
+	width: 75%;
+	height: 58px;
+	display: inline-block;
+}	
+button
+{
+	width: 70px;
+	height: 58px;
+	background-color: #82ca9c;
+	display: inline-block;
+}
+
+form
+{
+	margin-bottom: 18px;
+}
+
+@media (max-width: 1300px) 
+{
+	html
+	{
+		font-size: 10px;
+	}
 }
