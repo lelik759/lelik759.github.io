@@ -206,3 +206,27 @@ h3
 	flex-wrap: wrap;
 	justify-content: flex-end;
 }
+
+.box
+{
+	margin:97px 0 159px;
+}
+
+.text-block span
+{
+	margin: 68px 0 28px 1px;
+	color: #67676d;
+	font:600 13px/24px 'Open Sans',sans-serif;
+	display: block;
+	
+	
+}
+
+.text-block p
+{
+	width: 100%;
+	color: #959595;
+	font:400 14px/24px 'Open Sans',sans-serif;
+	word-wrap: break-word;
+}
+
