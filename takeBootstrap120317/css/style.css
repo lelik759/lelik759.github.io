@@ -284,3 +284,90 @@ h3
 	color: #fff;
 }
 
+.restangle-link
+{
+	max-width: 570px;
+	padding: 47px 0 56px 53px;
+	position: relative;
+
+}
+
+.btn-small
+{
+	border-radius: 5px;
+	background-color: #e1e1e1;
+	display: inline-block;
+	padding: 7px 18px;
+	margin-bottom: 23px;
+	color: #fff;
+	font:700 11px/22px 'Open Sans',sans-serif;
+	text-transform: uppercase;
+}
+
+	
+h4
+{
+	color: #2e3b4e;
+	font:300 30px/40px 'Open Sans',sans-serif;
+	margin-bottom: 25px;
+}
+
+h4+p
+{
+	max-width: 411px;
+	color: #8297a7;
+	font:400 14px/25px 'Open Sans',sans-serif;
+	margin-bottom: 25px;
+}
+
+.btn-big
+{
+
+	max-width: 151px;
+	border-radius: 3px;
+	background-color: #82ca9c;
+	display: inline-block;
+	padding: 17px 31px;
+	margin-bottom: 21px;
+	color: #fff;
+	font:700 13px/22px 'Open Sans',sans-serif;
+	text-transform: uppercase;
+}
+.restangle-link a .btn-big:hover
+{
+	text-decoration: underline;
+}
+
+.restangle-link a .btn-small:hover
+{
+	background-color: #bd8cbf;
+}
+
+.os a
+{
+	margin-right: 16px;
+}
+
+
+.restangle-link:hover
+{
+	background-color: #fff;
+	box-shadow: 0 0 62px rgba(0, 0, 0, 0.05);
+}
+
+.link
+{
+
+	margin-bottom: 145px;
+
+}
+
+.os a:hover
+{
+	opacity: 0.8;
+}
+
+.last
+{
+	top:83px;
+}
