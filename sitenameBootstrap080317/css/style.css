@@ -269,3 +269,10 @@ a
 {
 	margin-right: 1%;
 }
+@media (max-width: 750px) 
+{
+	.container
+	{
+		width: 90%;
+	}
+}
