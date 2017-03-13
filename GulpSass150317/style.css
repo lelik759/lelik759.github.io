@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Grand+Hotel");
+/*reset*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+html, body, ul, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Arial, sans-serif;
+  color: #ffffff; }
+
+.clearfix::before, .clearfix::after {
+  content: '';
+  display: table;
+  clear: both; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+.wrapper {
+  max-width: 970px;
+  margin: 0 auto; }
+
+.header-bg {
+  width: 100%;
+  height: 460px;
+  background-image: linear-gradient(to top, #009ec3 0%, #00b7ea 100%); }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%; }
+  .header-logo {
+    background-image: url("img/logo.png");
+    width: 280px;
+    height: 103px;
+    text-align: center;
+    line-height: 80px; }
+    .header-logo ::after, .header-logo ::before {
+      display: inline-block;
+      content: '\25cf\25cf';
+      color: #ffffff;
+      margin-left: 2.5%;
+      font-size: 20px;
+      vertical-align: middle;
+      text-shadow: none; }
+    .header-logo a {
+      font-family: "Grand Hotel", cursive;
+      font-size: 3rem;
+      margin: auto;
+      color: #ffffff;
+      display: block;
+      text-shadow: 0 -2px 0 #03546b, 0 -2px 0 #03546b, 0 2px 0 #03546b, 0 2px 0 #03546b, -2px 0 0 #03546b, 2px 0 0 #03546b, -2px 0 0 #03546b, 2px 0 0 #03546b, -1px -2px 0 #03546b, 1px -2px 0 #03546b, -1px 2px 0 #03546b, 1px 2px 0 #03546b, -2px -1px 0 #03546b, 2px -1px 0 #03546b, -2px 1px 0 #03546b, 2px 1px 0 #03546b, -2px -2px 0 #03546b, 2px -2px 0 #03546b, -2px 2px 0 #03546b, 2px 2px 0 #03546b, -2px -2px 0 #03546b, 2px -2px 0 #03546b, -2px 2px 0 #03546b, 2px 2px 0 #03546b; }
+  .header-feedback {
+    width: 170px;
+    height: 46px;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.75), black -1px 3px 10px;
+    border-radius: 5px;
+    border: 1px solid #040404;
+    background-color: #020202;
+    background-image: linear-gradient(to top, #333434 0%, #080808 100%);
+    line-height: 46px;
+    text-align: center; }
+    .header-feedback ::after {
+      display: inline-block;
+      content: '\25ba';
+      color: #00b4e5;
+      margin-left: 14.5%;
+      font-size: 12px;
+      vertical-align: middle; }
+    .header-feedback a {
+      font-size: 1.375rem;
+      color: #ffffff;
+      display: block; }
+
+.header-bg::after {
+  content: '';
+  width: 100%;
+  height: 7px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.75);
+  background-color: #020202;
+  display: block;
+  position: absolute;
+  top: 0; }
+
+.navi {
+  background-image: url("img/bar.png");
+  width: 100%;
+  height: 43px;
+  box-shadow: black 0 2px 2px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 14px;
+  margin: 25px 0;
+  flex-wrap: wrap; }
+  .navi-menu {
+    display: flex; }
+    .navi-menu__item {
+      border-right: 1px solid #999999;
+      margin: auto; }
+      .navi-menu__item a {
+        color: #999999;
+        font-size: 1rem;
+        display: block;
+        margin: 0 2px; }
+        .navi-menu__item a span {
+          margin: 5px 12px;
+          display: inline-block; }
+      .navi-menu__item a:hover {
+        background-image: url("img/button-highlight.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        color: #ffffff; }
+  .navi-search {
+    margin: auto 0;
+    position: relative; }
+    .navi-search__input {
+      width: 179px;
+      height: 26px;
+      background-color: #636262;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px; }
+    .navi-search__button {
+      width: 44px;
+      height: 34px;
+      background-image: url("img/vector-search.png");
+      border: none;
+      border-radius: 3px;
+      position: absolute;
+      top: -4px;
+      right: 15px;
+      padding: 0;
+      cursor: pointer; }
+
+.single-item {
+  max-width: 926px;
+  width: 100%;
+  height: 383px;
+  margin: 0 auto; }
+  .single-item-bg {
+    width: 1022px;
+    max-width: 100%;
+    height: 437px;
+    background-image: url(img/slider-bg.png);
+    padding-top: 23px;
+    margin: 0 auto; }
