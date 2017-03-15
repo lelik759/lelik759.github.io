@@ -90,6 +90,16 @@ ul {
   position: absolute;
   top: 0; }
 
+.header-bg::before {
+  content: '';
+  width: 100%;
+  height: 22px;
+  background-color: #003564;
+  background-image: linear-gradient(to top, #121212 0%, #000000 22%, #000000 55%, #1e1e1e 57%, #171717 75%, #171717 100%);
+  display: block;
+  position: absolute;
+  top: 0; }
+
 .navi {
   background-image: url("img/bar.png");
   width: 100%;
@@ -148,7 +158,16 @@ ul {
   .single-item-bg {
     width: 1022px;
     max-width: 100%;
-    height: 437px;
+    height: 436px;
     background-image: url(img/slider-bg.png);
     padding-top: 23px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    position: relative; }
+  .single-item-dots-bg {
+    background: url(img/dots-bg.png) no-repeat;
+    width: 280px;
+    max-width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 30px;
+    right: 47px; }
