@@ -86,7 +86,7 @@ position: absolute;
 .slick-dotted.slick-slider {
   margin-bottom: 30px; }
 
-.slick-dots {
+.slick-dots{
   position: absolute;
   bottom:0;
   right:50px;
