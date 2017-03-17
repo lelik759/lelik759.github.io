@@ -6,6 +6,56 @@ $main-color:#ffffff;
 $shadow-logo:#03546b;
 $link-color:#999999;
 
+@mixin mainWorkBlock()
+{
+		&-work
+	{
+		width: 180px;
+
+		&-img
+		{
+			width: 180px;
+			height: 169px;
+			background: url(img/square.png) no-repeat;
+			text-align: center;
+
+			&__title
+			{
+				color: #00b7e9;
+				font-size: 1.5rem;
+				font-weight: 400;
+				line-height: 21px;
+				
+			}
+		}
+
+		&-text
+		{
+			color: #343535;
+			font-size: 0.875rem;
+			font-weight: 400;
+			line-height: 18px;
+			margin: 14px 0;
+		}
+
+		&-link
+		{
+			width: 180px;
+			height: 56px;
+			background: url(img/bg-link.png) no-repeat;
+			line-height: 41px;
+			text-align: center;
+			font-family: $font-logo;
+			font-size: 28px;
+			font-weight: 400;
+			color:$main-color;
+
+		}
+
+	}
+}
+
+
 
 /*reset*/
 *,
@@ -258,49 +308,13 @@ ul
 .main
 {
 	margin:214px 0 52px;
-	&-work
-	{
-		width: 180px;
-
-		&-img
-		{
-			width: 180px;
-			height: 169px;
-			background: url(img/square.png) no-repeat;
-			text-align: center;
-
-			&__title
-			{
-				color: #00b7e9;
-				font-size: 1.5rem;
-				font-weight: 400;
-				line-height: 21px;
-				
-			}
-		}
-
-		&-text
-		{
-			color: #343535;
-			font-size: 0.875rem;
-			font-weight: 400;
-			line-height: 18px;
-			margin: 14px 0;
-		}
-
-		&-link
-		{
-			width: 180px;
-			height: 56px;
-			background: url(img/bg-link.png) no-repeat;
-			line-height: 41px;
-			text-align: center;
-			font-family: $font-logo;
-			font-size: 28px;
-			font-weight: 400;
-			color:$main-color;
-
-		}
-
-	}
+	@include mainWorkBlock();
+	
 }
+
+.mod-flex
+{
+	display:flex;
+	justify-content:space-between;
+}
+
