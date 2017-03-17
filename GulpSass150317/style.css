@@ -175,9 +175,10 @@ ul {
 .main {
   margin: 214px 0 52px; }
   .main-work {
-    width: 180px; }
+    max-width: 177px;
+    width: 50%; }
     .main-work-img {
-      width: 180px;
+      width: 177px;
       height: 169px;
       background: url(img/square.png) no-repeat;
       text-align: center; }
@@ -193,16 +194,21 @@ ul {
       line-height: 18px;
       margin: 14px 0; }
     .main-work-link {
-      width: 180px;
+      width: 177px;
       height: 56px;
       background: url(img/bg-link.png) no-repeat;
       line-height: 41px;
-      text-align: center;
-      font-family: "Grand Hotel", cursive;
-      font-size: 28px;
-      font-weight: 400;
-      color: #ffffff; }
+      text-align: center; }
+      .main-work-link a {
+        font-family: "Grand Hotel", cursive;
+        font-size: 28px;
+        font-weight: 400;
+        color: #ffffff;
+        display: block; }
+      .main-work-link :hover {
+        opacity: 0.8; }
 
 .mod-flex {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-wrap: wrap; }
