@@ -257,6 +257,7 @@ ul
 
 .main
 {
+	margin:214px 0 52px;
 	&-work
 	{
 		width: 180px;
@@ -285,6 +286,20 @@ ul
 			font-weight: 400;
 			line-height: 18px;
 			margin: 14px 0;
+		}
+
+		&-link
+		{
+			width: 180px;
+			height: 56px;
+			background: url(img/bg-link.png) no-repeat;
+			line-height: 41px;
+			text-align: center;
+			font-family: $font-logo;
+			font-size: 28px;
+			font-weight: 400;
+			color:$main-color;
+
 		}
 
 	}

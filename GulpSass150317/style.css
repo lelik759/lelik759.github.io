@@ -172,21 +172,33 @@ ul {
     bottom: 30px;
     right: 47px; }
 
-.main-work {
-  width: 180px; }
-  .main-work-img {
-    width: 180px;
-    height: 169px;
-    background: url(img/square.png) no-repeat;
-    text-align: center; }
-    .main-work-img__title {
-      color: #00b7e9;
-      font-size: 1.5rem;
+.main {
+  margin: 214px 0 52px; }
+  .main-work {
+    width: 180px; }
+    .main-work-img {
+      width: 180px;
+      height: 169px;
+      background: url(img/square.png) no-repeat;
+      text-align: center; }
+      .main-work-img__title {
+        color: #00b7e9;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 21px; }
+    .main-work-text {
+      color: #343535;
+      font-size: 0.875rem;
       font-weight: 400;
-      line-height: 21px; }
-  .main-work-text {
-    color: #343535;
-    font-size: 0.875rem;
-    font-weight: 400;
-    line-height: 18px;
-    margin: 14px 0; }
+      line-height: 18px;
+      margin: 14px 0; }
+    .main-work-link {
+      width: 180px;
+      height: 56px;
+      background: url(img/bg-link.png) no-repeat;
+      line-height: 41px;
+      text-align: center;
+      font-family: "Grand Hotel", cursive;
+      font-size: 28px;
+      font-weight: 400;
+      color: #ffffff; }
