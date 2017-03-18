@@ -58,17 +58,49 @@ $link-color:#999999;
 				}
 				:hover
 				{
-					opacity: 0.8;
+					opacity: 0.6;
 				}
-
-				
 		}
-		
-		
 	}
 }
 
+@mixin logo()
+{
+		&-logo
+		{
+			background-image: url("img/logo.png");
+	   	width: 280px;
+	   	height: 103px;
+	   	text-align: center;
+	   	line-height: 80px; 
+	   	
+	    
+	  	::after,::before
+			{
+				display: inline-block;
+				content: '\25cf\25cf';
+				color: $main-color;
+				margin-left: 2.5%;
+				font-size: 20px;
+				vertical-align: middle;
+				text-shadow: none;
+			}
 
+			a
+			{
+	   	font-family: $font-logo;
+	   	font-size:3rem;
+	   	margin: auto;
+	   	color: $main-color;
+		 	display: block;
+		 	text-shadow:0 -2px 0 $shadow-logo,0 -2px 0 $shadow-logo,0 2px 0 $shadow-logo,0 2px 0 $shadow-logo,-2px -0 0 $shadow-logo,
+		 								2px -0 0 $shadow-logo,-2px 0 0 $shadow-logo,2px 0 0 $shadow-logo,-1px -2px 0 $shadow-logo,1px -2px 0  $shadow-logo,
+		 								-1px 2px 0 $shadow-logo,1px 2px 0 $shadow-logo,-2px -1px 0 $shadow-logo,2px -1px 0 $shadow-logo,-2px 1px 0 $shadow-logo,
+										2px  1px 0 $shadow-logo,-2px -2px 0 $shadow-logo,2px -2px 0 $shadow-logo,-2px 2px 0 $shadow-logo,2px 2px 0  $shadow-logo,
+										-2px -2px 0 $shadow-logo,2px -2px 0 $shadow-logo,-2px 2px 0 $shadow-logo,2px 2px 0 $shadow-logo;
+			}
+		}
+}
 
 /*reset*/
 *,
@@ -120,41 +152,7 @@ ul
 	display:flex;
 	justify-content:space-between;
 	margin-bottom: 3%;
-
-	&-logo
-	{
-		background-image: url("img/logo.png");
-	   width: 280px;
-	   height: 103px;
-	   text-align: center;
-	   line-height: 80px; 
-	    
-	  ::after,::before
-		{
-			display: inline-block;
-			content: '\25cf\25cf';
-			color: $main-color;
-			margin-left: 2.5%;
-			font-size: 20px;
-			vertical-align: middle;
-			text-shadow: none;
-		}
-
-		a
-		{
-	   font-family: $font-logo;
-	   font-size:3rem;
-	   margin: auto;
-	   color: $main-color;
-		 display: block;
-		 text-shadow:0 -2px 0 $shadow-logo,0 -2px 0 $shadow-logo,0 2px 0 $shadow-logo,0 2px 0 $shadow-logo,-2px -0 0 $shadow-logo,
-		 								2px -0 0 $shadow-logo,-2px 0 0 $shadow-logo,2px 0 0 $shadow-logo,-1px -2px 0 $shadow-logo,1px -2px 0  $shadow-logo,
-		 								-1px 2px 0 $shadow-logo,1px 2px 0 $shadow-logo,-2px -1px 0 $shadow-logo,2px -1px 0 $shadow-logo,-2px 1px 0 $shadow-logo,
-										2px  1px 0 $shadow-logo,-2px -2px 0 $shadow-logo,2px -2px 0 $shadow-logo,-2px 2px 0 $shadow-logo,2px 2px 0  $shadow-logo,
-										-2px -2px 0 $shadow-logo,2px -2px 0 $shadow-logo,-2px 2px 0 $shadow-logo,2px 2px 0 $shadow-logo;
-					
-		}
-	}
+	@include logo();
 
 	&-feedback
 	{
@@ -332,3 +330,40 @@ ul
 	flex-wrap:wrap;
 }
 
+.footer
+{
+	width:100%;
+	height: 460px;
+	background-color: #020202;
+	background-image: linear-gradient(to top, #000000 0%, #181818 100%);
+	text-align:center;
+	@include logo();
+
+		&-logo
+		{
+			background-image: url("img/layer-6-copy.png");
+			width: 199px;
+	   	height: 75px;
+	   	display: inline-block;
+	   	line-height:54px;
+
+	  }
+	  & a
+	  {
+			font-size:2.1rem;
+			
+	  }
+}
+
+.footer::before
+	{
+		width:100%;
+		height: 33px;
+		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.76);
+		border: 1px solid #272626;
+		background-color: #020202;
+		background-image: linear-gradient(to top, #0d0d0d 0%, #0d0d0d 31%, #323131 72%, #616361 99%, #616361 100%);
+		display: block;
+		content:'';
+		
+	}
