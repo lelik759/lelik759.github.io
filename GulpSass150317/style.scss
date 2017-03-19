@@ -86,7 +86,7 @@ $link-color:#999999;
 				text-shadow: none;
 			}
 
-			a
+			&__text
 			{
 	   	font-family: $font-logo;
 	   	font-size:3rem;
@@ -347,14 +347,14 @@ ul
 	   	display: inline-block;
 	   	line-height:54px;
 	   	margin-bottom: 10px;
-	   	
+	   	&__text
+	  	{
+				font-size:2.1rem;
+			
+	  	}
 
 	  }
-	  & a
-	  {
-			font-size:2.1rem;
-			
-	  }
+	  
 
 	  &-content
 	  {
@@ -396,11 +396,29 @@ ul
 					}
 				}
 
+				&-social
+				{
+					
+					&__img
+					{
+						margin-right: 9px;
+					}
+					&__img:hover
+					{
+						opacity: 0.7;
+					}
+				}
+
 			}
 
 
 			
 	  }
+}
+
+.mod-width__row
+{
+	width:27%;
 }
 
 .footer::before
