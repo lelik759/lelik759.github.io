@@ -214,7 +214,7 @@ ul {
 
 .footer {
   width: 100%;
-  height: 460px;
+  height: 490px;
   background-color: #020202;
   background-image: linear-gradient(to top, #000000 0%, #181818 100%);
   text-align: center; }
@@ -244,9 +244,36 @@ ul {
     width: 199px;
     height: 75px;
     display: inline-block;
-    line-height: 54px; }
+    line-height: 54px;
+    margin-bottom: 10px; }
   .footer a {
     font-size: 2.1rem; }
+  .footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .footer-content-row {
+      width: 33%;
+      text-align: left; }
+      .footer-content-row__header {
+        display: block;
+        font-size: 1.5rem;
+        margin-bottom: 20px; }
+      .footer-content-row__img {
+        margin: 0 23px 20px 0; }
+      .footer-content-row-block {
+        display: inline-block;
+        vertical-align: top;
+        height: 84px;
+        border-bottom: 2px dotted #676565;
+        border-top: 2px dotted #676565;
+        padding: 6px 0;
+        margin-bottom: 20px; }
+        .footer-content-row-block__title {
+          color: #74baf8;
+          font-size: 1rem; }
+        .footer-content-row-block__text {
+          font-size: 0.875rem; }
 
 .footer::before {
   width: 100%;
