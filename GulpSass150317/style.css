@@ -33,53 +33,6 @@ ul {
   height: 460px;
   background-image: linear-gradient(to top, #009ec3 0%, #00b7ea 100%); }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 3%; }
-  .header-logo {
-    background-image: url("img/logo.png");
-    width: 280px;
-    height: 103px;
-    text-align: center;
-    line-height: 80px; }
-    .header-logo ::after, .header-logo ::before {
-      display: inline-block;
-      content: '\25cf\25cf';
-      color: #ffffff;
-      margin-left: 2.5%;
-      font-size: 20px;
-      vertical-align: middle;
-      text-shadow: none; }
-    .header-logo__text {
-      font-family: "Grand Hotel", cursive;
-      font-size: 3rem;
-      margin: auto;
-      color: #ffffff;
-      display: block;
-      text-shadow: 0 -2px 0 #03546b, 0 -2px 0 #03546b, 0 2px 0 #03546b, 0 2px 0 #03546b, -2px 0 0 #03546b, 2px 0 0 #03546b, -2px 0 0 #03546b, 2px 0 0 #03546b, -1px -2px 0 #03546b, 1px -2px 0 #03546b, -1px 2px 0 #03546b, 1px 2px 0 #03546b, -2px -1px 0 #03546b, 2px -1px 0 #03546b, -2px 1px 0 #03546b, 2px 1px 0 #03546b, -2px -2px 0 #03546b, 2px -2px 0 #03546b, -2px 2px 0 #03546b, 2px 2px 0 #03546b, -2px -2px 0 #03546b, 2px -2px 0 #03546b, -2px 2px 0 #03546b, 2px 2px 0 #03546b; }
-  .header-feedback {
-    width: 170px;
-    height: 46px;
-    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.75), black -1px 3px 10px;
-    border-radius: 5px;
-    border: 1px solid #040404;
-    background-color: #020202;
-    background-image: linear-gradient(to top, #333434 0%, #080808 100%);
-    line-height: 46px;
-    text-align: center; }
-    .header-feedback ::after {
-      display: inline-block;
-      content: '\25ba';
-      color: #00b4e5;
-      margin-left: 14.5%;
-      font-size: 12px;
-      vertical-align: middle; }
-    .header-feedback a {
-      font-size: 1.375rem;
-      color: #ffffff;
-      display: block; }
-
 .header-bg::after {
   content: '';
   width: 100%;
@@ -293,3 +246,46 @@ ul {
   background-image: linear-gradient(to top, #0d0d0d 0%, #0d0d0d 31%, #323131 72%, #616361 99%, #616361 100%);
   display: block;
   content: ''; }
+
+.header {
+  width: 100%;
+  max-width: 1200px;
+  max-height: auto;
+  background-color: #d1222c;
+  display: flex;
+  justify-content: space-between; }
+  .header-logo {
+    display: inline-block;
+    margin: 10px  0 8px 30px; }
+    .header-logo-link {
+      display: block; }
+  .header-nav {
+    font-size: 0;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 30px 10px 0; }
+    .header-nav__search {
+      width: 300px;
+      height: 30px;
+      background-color: #ebebeb;
+      vertical-align: top;
+      border: none; }
+    .header-nav-button {
+      width: 30px;
+      height: 30px;
+      background-color: #bcbcbc;
+      cursor: pointer;
+      border: none; }
+    .header-nav-form {
+      width: 30px;
+      height: 30px;
+      background-color: #829c48;
+      display: inline-block;
+      margin: 0 10px;
+      cursor: pointer; }
+    .header-nav-menu {
+      width: 30px;
+      height: 30px;
+      background-color: #4e75a0;
+      display: inline-block;
+      cursor: pointer; }
